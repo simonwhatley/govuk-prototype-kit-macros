@@ -48,4 +48,6 @@ Which results in the following HTML:
 </div>
 ```
 
-This repository saves you the time defining your macros and allows you to build prototypes fast.
+## Licence
+
+Unless stated otherwise, this codebase is released under the MIT License. This covers both the codebase and any sample code in the documentation.
