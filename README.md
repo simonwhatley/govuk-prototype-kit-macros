@@ -25,8 +25,7 @@ Nunjucks is a full featured templating engine for JavaScript.
 ```
 {% macro field(name, value='', type='text') %}
 <div class="field">
-  <input type="{{ type }}" name="{{ name }}"
-         value="{{ value | escape }}" />
+  <input type="{{ type }}" name="{{ name }}" value="{{ value | escape }}" />
 </div>
 {% endmacro %}
 ```
@@ -36,6 +35,17 @@ Now `field` is available to be called like a normal function:
 ```
 {{ field('username') }}
 {{ field('password', type='password') }}
+```
+
+Which results in the following HTML:
+
+```
+<div class="field">
+  <input type="text" name="username" value="">
+</div>
+<div class="field">
+  <input type="password" name="password" value="">
+</div>
 ```
 
 This repository saves you the time defining your macros and allows you to build prototypes fast.
