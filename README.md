@@ -9,7 +9,7 @@ Read the [project principles](https://govuk-prototype-kit.herokuapp.com/docs/pri
 
 ## About Nunjucks
 
-Nunjucks is a full featured templating engine for JavaScript. 
+Nunjucks is a fully featured templating engine for JavaScript.
 
 ## Requirements
 - [v6.3.0](https://github.com/alphagov/govuk-prototype-kit/tree/v6.3.0) of the prototype kit
@@ -17,6 +17,55 @@ Nunjucks is a full featured templating engine for JavaScript.
 
 ## How to install these macros
 
+Download this project and copy the `components` folder in the `views` folder in the prototype kit, for example:
+
+```
+- Prototype root folder
+	- app
+		- views
+			- components
+```
+
+Reference the macros in the `layout.html` file, for example:
+
+```
+{% from "./components/back-link/macro.njk" import govukBackLink %}
+{% from "./components/date-input/macro.njk" import govukDateInput %}
+```
+
+Reference the `layout.html` file in your view file, for example:
+
+```
+{% extends "./layout.html" %}
+```
+
+You're now free to use the macros, for example:
+
+```
+{{ govukDateInput({
+	"id": "date-of-birth",
+	"name": "date_of_birth",
+	"fieldset": {
+		"legend": {
+			"text": "Date of birth"
+		}
+	},
+	"hint": {
+		"text": "For example, 31 3 1980"
+	},
+	"items": [
+		{
+			"name": "day"
+		},
+		{
+			"name": "month"
+		},
+		{
+			"name": "year"
+		}
+	]
+}) }}
+```
 
 ## How to use macros
 
@@ -50,4 +99,4 @@ Which results in the following HTML:
 
 ## Licence
 
-Unless stated otherwise, this codebase is released under the MIT License. This covers both the codebase and any sample code in the documentation.
+Unless otherwise stated, this codebase is released under the [MIT License](https://github.com/whatterz/govuk-prototype-kit-macros/blob/master/LICENSE). This covers both the codebase and any sample code in the documentation.
