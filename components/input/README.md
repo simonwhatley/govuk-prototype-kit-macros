@@ -27,7 +27,7 @@ This component accepts the following arguments.
 |id|string|Yes|This is used to compose the `id` attribute for each item.|
 |name|string|Yes|This is used to compose the `name` attribute for each item.|
 
-**Warning: If you’re using Nunjucks macros in production be aware that using <abbr title="HyperText Markup Language">HTML</abbr> arguments, or ones ending with `.html` can be at risk from [cross-site scripting](https://en.wikipedia.org/wiki/Cross-site_scripting) attacks. More about security vulnerabilities can be found in the [Nunjucks documentation](https://mozilla.github.io/nunjucks/api.html#user-defined-templates-warning).**
+*Warning: If you’re using Nunjucks macros in production be aware that using HTML arguments, or ones ending with `.html` can be at risk from [cross-site scripting](https://en.wikipedia.org/wiki/Cross-site_scripting) attacks. More information about security vulnerabilities can be found in the [Nunjucks documentation](https://mozilla.github.io/nunjucks/api.html#user-defined-templates-warning).*
 
 ## Licence
 
