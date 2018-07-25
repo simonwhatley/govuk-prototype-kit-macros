@@ -5,5 +5,76 @@
 {% from "../hint/macro.njk" import govukHint %}
 {% from "../label/macro.njk" import govukLabel %}
 
+{% set idPrefix = params.idPrefix if params.idPrefix else params.name %}
+
+{% set describedBy = "" %}
+
+{%- set innerHtml %}
+
+	{%- if params.hint %}
+
+		{% set hintId = idPrefix + '-hint' %}
+
+		{{ govukHint({
+			id: hintId,
+			classes: params.hint.classes,
+			attributes: params.hint.attributes,
+			html: params.hint.html,
+			text: params.hint.text
+		}) | indent(2) | trim }}
+
+	{% endif -%}
+
+	{%- if params.errorMessage %}
+
+		{% set errorId = idPrefix + '-error' %}
+
+		{{ govukErrorMessage({
+			id: errorId,
+			classes: params.errorMessage.classes,
+			html: params.errorMessage.html,
+			text: params.errorMessage.text
+		}) | indent(2) | trim }}
+
+	{% endif -%}
+
+	{%- for item in params.items %}
+
+		{% set itemId = item.id if item.id else idPrefix + "-" + loop.index %}
+    	{% set itemName = item.name if item.name else params.name %}
+
+		<div class="multiple-choice">
+
+			<input type="checkbox" id="{{ itemId }}" name="{{ itemName }}" value="{{ item.value }}" {{-" checked" if item.checked }}  {{-" disabled" if item.disabled }}>
+			
+			{{ govukLabel({
+				html: item.html,
+				text: item.text,
+				attributes: item.label.attributes,
+				for: itemId
+			}) | indent(6) | trim }}
+
+		</div>
+
+		{# consider conditional panels #}
+
+	{% endfor -%}
+
+{% endset -%}
+
+<div class="form-group{%- if params.errorMessage %} form-group-error{% endif -%}">
+{%- if params.fieldset %}
+	{% call govukFieldset({
+		describedBy: describedBy,
+		classes: params.fieldset.classes,
+		attributes: params.fieldset.attributes,
+		legend: params.fieldset.legend
+	}) %}
+		{{ innerHtml | trim | safe }}
+	{% endcall %}
+{% else %}
+	{{ innerHtml | trim | safe }}
+{% endif -%}
+</div>
 
 {% endmacro %}
