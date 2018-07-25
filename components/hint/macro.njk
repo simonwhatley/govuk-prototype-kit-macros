@@ -1,3 +1,5 @@
 {% macro govukHint(params) %}
-
+<span class="form-hint">
+	{{ params.html | safe if params.html else params.text }}
+</span>
 {% endmacro %}

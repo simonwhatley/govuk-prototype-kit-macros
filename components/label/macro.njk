@@ -1,3 +1,5 @@
 {% macro govukLabel(params) %}
-
+<span class="heading-secondary">
+	{{ params.html | safe if params.html else params.text }}
+</label>
 {% endmacro %}

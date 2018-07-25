@@ -1,3 +1,14 @@
 {% macro govukFieldset(params) %}
-
+<fieldset>
+	<legend {%- if params.legend.classes %} class="{{ params.legend.classes }}"{% endif -%}>
+		{%- if params.legend.isPageHeading %}
+			<h1 class="heading-xlarge">
+				{{ params.legend.html | safe if params.legend.html else params.legend.text }}
+			</h1>
+		{% else %}
+			{{ params.legend.html | safe if params.legend.html else params.legend.text }}
+		{% endif -%}
+	</legend>
+	{{ caller() if caller }}
+</fieldset>
 {% endmacro %}
