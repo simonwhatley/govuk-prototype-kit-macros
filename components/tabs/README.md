@@ -1,4 +1,4 @@
-# Panel
+# Tags
 
 ## Introduction
 
@@ -6,7 +6,7 @@
 
 ## Guidance
 
-Find out when to use the panel component in your service in the [GOV.UK Elements documentation](http://govuk-elements.herokuapp.com/).
+Find out when to use the tab component in your service in the [GOV.UK Elements documentation](http://govuk-elements.herokuapp.com/).
 
 ## Examples
 

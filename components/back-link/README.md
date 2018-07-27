@@ -1,12 +1,12 @@
-# Date input
+# Back link
 
 ## Introduction
 
-This is a component for entering dates, for example: Date of birth.
+
 
 ## Guidance
 
-Find out when to use the date input component in your service in the [GOV.UK Elements documentation](http://govuk-elements.herokuapp.com/).
+Find out when to use the back link component in your service in the [GOV.UK Elements documentation](http://govuk-elements.herokuapp.com/).
 
 ## Examples
 

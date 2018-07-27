@@ -1,4 +1,4 @@
-# Panel
+# Breadcrumbs
 
 ## Introduction
 
@@ -6,7 +6,7 @@
 
 ## Guidance
 
-Find out when to use the panel component in your service in the [GOV.UK Elements documentation](http://govuk-elements.herokuapp.com/).
+Find out when to use the breadcrumbs component in your service in the [GOV.UK Elements documentation](http://govuk-elements.herokuapp.com/).
 
 ## Examples
 
@@ -24,6 +24,8 @@ This component accepts the following arguments.
 
 |Name|Type|Required|Description|
 |---|---|---|---|
+|id|string|No|Optional identifier. This is used to compose the `id` attribute for each item.|
+|name|string|No|Optional name. This is used to compose the `name` attribute for each item.|
 
 *Warning: If you’re using Nunjucks macros in production be aware that using HTML arguments, or ones ending with `.html` can be at risk from [cross-site scripting](https://en.wikipedia.org/wiki/Cross-site_scripting) attacks. More information about security vulnerabilities can be found in the [Nunjucks documentation](https://mozilla.github.io/nunjucks/api.html#user-defined-templates-warning).*
 
