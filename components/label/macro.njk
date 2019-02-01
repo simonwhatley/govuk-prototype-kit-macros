@@ -1,5 +1,21 @@
 {% macro govukLabel(params) %}
-<span class="heading-secondary">
+
+{% from "../hint/macro.njk" import govukHint %}
+
+{%- if params.isPageHeading %}<h1>{% endif -%}
+<label {%- if params.for %} for="{{ params.for }}"{% endif %} class="{{ params.classes | default('form-label') }}">
 	{{ params.html | safe if params.html else params.text }}
+	{%- if params.hint.html or params.hint.text %}
+		{% set hintId = params.for + "-hint" %}
+		{{ govukHint({
+			"id": hintId,
+			"classes": params.hint.classes,
+			"text": params.hint.text,
+			"html": params.hint.html,
+			"attributes": params.hint.attributes
+		}) | trim }}
+	{% endif -%}
 </label>
+{%- if params.isPageHeading %}</h1>{% endif -%}
+
 {% endmacro %}

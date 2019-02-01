@@ -1,5 +1,5 @@
 {% macro govukHint(params) %}
-<span class="form-hint">
+<span {%- if params.id %} for="{{ params.id }}"{% endif %} class="{{ params.classes | default('form-hint') }}" {%- for attribute, value in params.attributes %} {{ attribute }}="{{ value }}"{% endfor %}>
 	{{ params.html | safe if params.html else params.text }}
 </span>
 {% endmacro %}

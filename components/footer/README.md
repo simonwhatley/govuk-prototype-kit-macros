@@ -12,11 +12,17 @@ Find out when to use the footer component in your service in the [GOV.UK Element
 
 ### Example 1
 
-Preview this example in the [prototype demo app]().
+Preview this example in the [prototype demo app](https://govuk-prototype-kit-macros.herokuapp.com/examples/footer/#example-1).
 
 #### Macro
+```
+
+```
 
 #### Markup
+```
+
+```
 
 ## Arguments
 

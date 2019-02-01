@@ -1,3 +1,12 @@
 {% macro govukWarningText(params) %}
-
+<div class="notice {{- ' ' + params.classes if params.classes}}"
+	{%- for attribute, value in params.attributes %} {{attribute}}="{{value}}"{% endfor -%}
+	>
+	<i class="icon icon-important">
+		<span class="visually-hidden">{{ params.iconFallbackText if params.iconFallbackText else "Warning" }}</span>
+	</i>
+	<strong class="bold-small">
+		{{ params.html | safe if params.html else params.text }}
+	</strong>
+</div>
 {% endmacro %}

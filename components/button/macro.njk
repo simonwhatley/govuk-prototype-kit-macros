@@ -1,3 +1,13 @@
 {% macro govukButton(params) %}
-
+{%- if params.element == 'a' %}
+<a href="{{ params.href if params.href else '#' }}" role="button" class="{% if params.classes -%} {{ params.classes }}{% endif %}{% if params.disabled %} disabled{% endif %}"{% for attribute, value in params.attributes %} {{attribute}}="{{value}}"{% endfor %}>
+  {{ params.html | safe if params.html else params.text }}
+</a>
+{% elif params.element == 'input' %}
+<input value="{{ params.text }}" {%- if params.name %} name="{{ params.name }}"{% endif %} type="{{ params.type if params.type else 'submit' }}"{% if params.disabled %} disabled="disabled" aria-disabled="true"{% endif %} class="{% if params.classes -%} {{ params.classes }}{% endif %}{% if params.disabled %} disabled{% endif %}"{% for attribute, value in params.attributes %} {{attribute}}="{{value}}"{% endfor %}>
+{% else %}
+<button {%- if params.value %} value="{{ params.value }}"{% endif %} {% if params.name %} name="{{ params.name }}"{% endif %} type="{{ params.type if params.type else 'submit' }}"{% if params.disabled %} disabled="disabled" aria-disabled="true"{% endif %} class="{% if params.classes -%} {{ params.classes }}{% endif %}{% if params.disabled %} disabled{% endif %}"{% for attribute, value in params.attributes %} {{attribute}}="{{value}}"{% endfor %}>
+  {{ params.html | safe if params.html else params.text }}
+</button>
+{% endif -%}
 {% endmacro %}

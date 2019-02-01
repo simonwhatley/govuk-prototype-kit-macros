@@ -1,9 +1,51 @@
 {% macro govukDateInput(params) %}
 
 {% from "../error-message/macro.njk" import govukErrorMessage %}
-{% from "../fieldset/macro.njk" import govukFieldset %}
 {% from "../hint/macro.njk" import govukHint %}
 {% from "../input/macro.njk" import govukInput %}
+{% from "../label/macro.njk" import govukLabel %}
 
+<div class="{{ params.formGroup.classes | default('form-group') }} {%- if params.errorMessage %} form-group-error{% endif %}" role="group">
+    <fieldset>
+        <legend class="{{ params.fieldset.legend.classes | default('form-label-bold') }}">
+            {{ params.fieldset.legend.html | safe if params.fieldset.legend.html else params.fieldset.legend.text }}
+            {%- if params.hint %}
+				{% set hintId = params.id + "-hint" %}
+				{{ govukHint({
+					"id": hintId,
+					"classes": params.hint.classes,
+					"attributes": params.hint.attributes,
+					"html": params.hint.html,
+					"text": params.hint.text
+				}) | trim }}
+			{% endif -%}
+			{%- if params.errorMessage %}
+				{% set errorId = params.id + "-error" %}
+				{{ govukErrorMessage({
+					"id": errorId,
+					"classes": params.errorMessage.classes,
+					"html": params.errorMessage.html,
+					"text": params.errorMessage.text
+				}) | trim }}
+			{% endif -%}
+        </legend>
+        <div class="form-date">
+        	{%- for item in params.items %}
+        		{% set inputId = item.id if item.id else (params.id + "-" + item.name) %}
+        		{% set inputName = item.name if item.name else (params.id + "-" + item.name) %}
+        		<div class="form-group {{ item.formGroup.classes }}">
+	            	{{ govukLabel({
+		            	"for": inputId,
+		            	"classes": item.label.classes,
+						"text": item.label.text,
+						"html": item.label.html,
+						"attributes": item.label.attributes
+				    }) | trim }}
+	                <input class="{{ item.classes | default('form-control') }} {%- if params.errorMessage %} form-control-error{% endif %}" id="{{ inputId }}" name="{{ inputName }}" type="{{ item.type | default('text') }}" {%- if item.value %} value="{{ item.value }}"{% endif %}{% for attribute, value in item.attributes %} {{ attribute }}="{{ value }}"{% endfor %}>
+	            </div>
+        	{% endfor -%}
+        </div>
+    </fieldset>
+</div>
 
 {% endmacro %}

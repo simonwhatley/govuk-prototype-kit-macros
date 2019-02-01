@@ -1,8 +1,40 @@
 {% macro govukSelect(params) %}
 
 {% from "../error-message/macro.njk" import govukErrorMessage %}
-{% from "../hint/macro.njk" import govukHint %}
 {% from "../label/macro.njk" import govukLabel %}
 
+<div class="form-group {%- if params.errorMessage %} form-group-error{% endif %}">
+
+	{{ govukLabel({
+      "text": params.label.text,
+      "html": params.label.html,
+      "classes": params.label.classes,
+      "isPageHeading": params.label.isPageHeading,
+      "attributes": params.label.attributes,
+      "for": params.id,
+      "hint": params.hint
+	}) | trim }}
+
+	{%- if params.errorMessage %}
+
+		{% set errorId = params.id + "-error" %}
+
+		{{ govukErrorMessage({
+			"id": errorId,
+			"classes": params.errorMessage.classes,
+			"text": params.errorMessage.text,
+			"html": params.errorMessage.html,
+			"attributes": params.errorMessage.attributes
+		}) | trim }}
+
+	{% endif -%}
+
+	<select id="{{ params.id }}" class="form-control {%- if params.classes %} {{ params.classes }}{% endif %} {%- if params.errorMessage %} form-control-error{% endif %}" name="{{ params.name }}"{% for attribute, value in params.attributes %} {{ attribute }}="{{ value }}"{% endfor %}>
+		{%- for item in params.items %}
+			<option value="{{ item.value }}"{{ " selected" if item.selected }}{{ " disabled" if item.disabled }}{% for attribute, value in item.attributes %} {{ attribute }}="{{ value }}"{% endfor %}>{{ item.text }}</option>
+		{% endfor -%}
+	</select>
+
+</div>
 
 {% endmacro %}

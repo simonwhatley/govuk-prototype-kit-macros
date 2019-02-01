@@ -1,3 +1,37 @@
 {% macro govukTabs(params) %}
-
+{% set idPrefix = params.idPrefix if params.idPrefix %}
+<div {%- if params.id %} id="{{params.id}}"{% endif %} class="tabs {%- if params.classes %} {{ params.classes }}{% endif %}" {%- for attribute, value in params.attributes %} {{attribute}}="{{value}}"{% endfor %} data-module="tabs">
+	<h2 class="{{ params.titleClasses | default('heading-medium') }}">
+		{{ params.title | default ("Contents") }}
+	</h2>
+	<div class="tabs-nav">
+		{%- if(params.items) %}
+		<ul class="tabs-list">
+			{%- for item in params.items %}
+				{% set id = item.id if item.id else idPrefix + "-" + loop.index %}
+				<li>
+					<a href="#{{ id }}">
+						{{ item.label }}
+					</a>
+				</li>
+			{% endfor -%}
+		</ul>
+		{% endif -%}
+	</div>
+	<div class="tabs-content">
+	{%- for item in params.items %}
+		{% set id = item.id if item.id else idPrefix + "-" + loop.index %}
+		<div class="tabs-panel" id="{{ id }}">
+			<div class="tabs-panel-inner">
+				{%- if item.panel.title %}
+				<h2 class="{{ item.panel.classes | default('heading-large') }}">
+					{{ item.panel.title }}
+				</h2>
+				{% endif -%}
+				{{ item.panel.html | safe if item.panel.html else item.panel.text }}
+			</div>
+		</div>
+	{% endfor -%}
+	</div>
+</div>
 {% endmacro %}

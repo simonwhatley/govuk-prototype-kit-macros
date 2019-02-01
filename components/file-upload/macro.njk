@@ -1,8 +1,36 @@
 {% macro govukFileUpload(params) %}
 
 {% from "../error-message/macro.njk" import govukErrorMessage %}
-{% from "../hint/macro.njk" import govukHint %}
 {% from "../label/macro.njk" import govukLabel %}
 
+<div class="{{ params.classes | default('form-group') }} {%- if params.errorMessage %} form-group-error{% endif %}">
+
+	{{ govukLabel({
+      "text": params.label.text,
+      "html": params.label.html,
+      "classes": params.label.classes,
+      "isPageHeading": params.label.isPageHeading,
+      "attributes": params.label.attributes,
+      "for": params.id,
+      "hint": params.hint
+	}) | trim }}
+
+	{%- if params.errorMessage %}
+
+		{% set errorId = params.id + "-error" %}
+
+		{{ govukErrorMessage({
+			"id": errorId,
+			"classes": params.errorMessage.classes,
+			"text": params.errorMessage.text,
+			"html": params.errorMessage.html,
+			"attributes": params.errorMessage.attributes
+		}) | trim }}
+
+	{% endif -%}
+
+	<input id="{{ params.id }}" class="form-control {%- if params.classes %} {{ params.classes }}{% endif %} {%- if params.errorMessage %} form-control-error{% endif %}" name="{{ params.name }}" type="{{ params.type | default('file') }}" {%- if params.value %} value="{{  params.value }}"{% endif %}{% for attribute, value in params.attributes %} {{ attribute }}="{{ value }}"{% endfor %}>
+
+</div>
 
 {% endmacro %}
