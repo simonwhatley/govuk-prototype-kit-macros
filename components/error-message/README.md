@@ -18,7 +18,7 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukErrorMessage({
-	"text": "Error message goes here"
+  "text": "Error message goes here"
 }) }}
 ```
 

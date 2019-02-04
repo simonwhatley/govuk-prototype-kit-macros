@@ -17,86 +17,86 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukCheckboxes({
-	"idPrefix": "nationality",
-	"name": "nationality",
-	"fieldset": {
-		"legend": {
-			"text": "What is your nationality?",
-			"classes": "form-label-bold"
-		}
-	},
-	"items": [
-		{
-			"value": "british",
-			"text": "British"
-		},
-		{
-			"value": "french",
-			"text": "French"
-		},
-		{
-			"value": "german",
-			"text": "German"
-		},
-		{
-			"value": "italian",
-			"text": "Italian"
-		},
-		{
-			"value": "spanish",
-			"text": "Spanish"
-		},
-		{
-			"value": "other",
-			"text": "Citizen of another country"
-		}
-	]
+  "idPrefix": "nationality",
+  "name": "nationality",
+  "fieldset": {
+    "legend": {
+      "text": "What is your nationality?",
+      "classes": "form-label-bold"
+    }
+  },
+  "items": [
+    {
+      "value": "british",
+      "text": "British"
+    },
+    {
+      "value": "french",
+      "text": "French"
+    },
+    {
+      "value": "german",
+      "text": "German"
+    },
+    {
+      "value": "italian",
+      "text": "Italian"
+    },
+    {
+      "value": "spanish",
+      "text": "Spanish"
+    },
+    {
+      "value": "other",
+      "text": "Citizen of another country"
+    }
+  ]
 }) }}
 ```
 #### Markup
 ```
 <div class="form-group">
-	<fieldset>
-		<legend class="form-label-bold">
-			What is your nationality?
-		</legend>
-		<div class="multiple-choice">
-			<input type="checkbox" id="checkboxes-example-1-1" name="nationality" value="british">
-			<label for="checkboxes-example-1-1" class="form-label">
-				British
-			</label>
-		</div>
-		<div class="multiple-choice">
-			<input type="checkbox" id="checkboxes-example-1-2" name="nationality" value="french">
-			<label for="checkboxes-example-1-2" class="form-label">
-				French
-			</label>
-		</div>
-		<div class="multiple-choice">
-			<input type="checkbox" id="checkboxes-example-1-3" name="nationality" value="german">
-			<label for="checkboxes-example-1-3" class="form-label">
-				German
-			</label>
-		</div>
-		<div class="multiple-choice">
-			<input type="checkbox" id="checkboxes-example-1-4" name="nationality" value="italian">
-			<label for="checkboxes-example-1-4" class="form-label">
-				Italian
-			</label>
-		</div>
-		<div class="multiple-choice">
-			<input type="checkbox" id="checkboxes-example-1-5" name="nationality" value="spanish">
-			<label for="checkboxes-example-1-5" class="form-label">
-				Spanish
-			</label>
-		</div>
-		<div class="multiple-choice">
-			<input type="checkbox" id="checkboxes-example-1-6" name="nationality" value="other">
-			<label for="checkboxes-example-1-6" class="form-label">
-				Citizen of another country
-			</label>
-		</div>
-	</fieldset>
+  <fieldset>
+    <legend class="form-label-bold">
+      What is your nationality?
+    </legend>
+    <div class="multiple-choice">
+      <input type="checkbox" id="checkboxes-example-1-1" name="nationality" value="british">
+      <label for="checkboxes-example-1-1" class="form-label">
+        British
+      </label>
+    </div>
+    <div class="multiple-choice">
+      <input type="checkbox" id="checkboxes-example-1-2" name="nationality" value="french">
+      <label for="checkboxes-example-1-2" class="form-label">
+        French
+      </label>
+    </div>
+    <div class="multiple-choice">
+      <input type="checkbox" id="checkboxes-example-1-3" name="nationality" value="german">
+      <label for="checkboxes-example-1-3" class="form-label">
+        German
+      </label>
+    </div>
+    <div class="multiple-choice">
+      <input type="checkbox" id="checkboxes-example-1-4" name="nationality" value="italian">
+      <label for="checkboxes-example-1-4" class="form-label">
+        Italian
+      </label>
+    </div>
+    <div class="multiple-choice">
+      <input type="checkbox" id="checkboxes-example-1-5" name="nationality" value="spanish">
+      <label for="checkboxes-example-1-5" class="form-label">
+        Spanish
+      </label>
+    </div>
+    <div class="multiple-choice">
+      <input type="checkbox" id="checkboxes-example-1-6" name="nationality" value="other">
+      <label for="checkboxes-example-1-6" class="form-label">
+        Citizen of another country
+      </label>
+    </div>
+  </fieldset>
 </div>
 ```
 
@@ -107,92 +107,92 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukCheckboxes({
-	"idPrefix": "nationality",
-	"name": "nationality",
-	"fieldset": {
-		"legend": {
-			"text": "What is your nationality?",
-			"classes": "form-label-bold"
-		}
-	},
-	"hint": {
-		"text": "If you have dual nationality, select all options that are relevant to you."
-	},
-	"items": [
-		{
-			"value": "british",
-			"text": "British"
-		},
-		{
-			"value": "french",
-			"text": "French"
-		},
-		{
-			"value": "german",
-			"text": "German"
-		},
-		{
-			"value": "italian",
-			"text": "Italian"
-		},
-		{
-			"value": "spanish",
-			"text": "Spanish"
-		},
-		{
-			"value": "other",
-			"text": "Citizen of another country"
-		}
-	]
+  "idPrefix": "nationality",
+  "name": "nationality",
+  "fieldset": {
+    "legend": {
+      "text": "What is your nationality?",
+      "classes": "form-label-bold"
+    }
+  },
+  "hint": {
+    "text": "If you have dual nationality, select all options that are relevant to you."
+  },
+  "items": [
+    {
+      "value": "british",
+      "text": "British"
+    },
+    {
+      "value": "french",
+      "text": "French"
+    },
+    {
+      "value": "german",
+      "text": "German"
+    },
+    {
+      "value": "italian",
+      "text": "Italian"
+    },
+    {
+      "value": "spanish",
+      "text": "Spanish"
+    },
+    {
+      "value": "other",
+      "text": "Citizen of another country"
+    }
+  ]
 }) }}
 ```
 #### Markup
 ```
 <div class="form-group">
-	<fieldset>
-		<legend class="form-label-bold">
-			What is your nationality?
-			<span class="form-hint">
-				If you have dual nationality, select all options that are relevant to you.
-			</span>
-		</legend>
-		<div class="multiple-choice">
-			<input type="checkbox" id="checkboxes-example-2-1" name="nationality" value="british">
-			<label for="checkboxes-example-2-1" class="form-label">
-				British
-			</label>
-		</div>
-		<div class="multiple-choice">
-			<input type="checkbox" id="checkboxes-example-2-2" name="nationality" value="french">
-			<label for="checkboxes-example-2-2" class="form-label">
-				French
-			</label>
-		</div>
-		<div class="multiple-choice">
-			<input type="checkbox" id="checkboxes-example-2-3" name="nationality" value="german">
-			<label for="checkboxes-example-2-3" class="form-label">
-				German
-			</label>
-		</div>
-		<div class="multiple-choice">
-			<input type="checkbox" id="checkboxes-example-2-4" name="nationality" value="italian">
-			<label for="checkboxes-example-2-4" class="form-label">
-				Italian
-			</label>
-		</div>
-		<div class="multiple-choice">
-			<input type="checkbox" id="checkboxes-example-2-5" name="nationality" value="spanish">
-			<label for="checkboxes-example-2-5" class="form-label">
-				Spanish
-			</label>
-		</div>
-		<div class="multiple-choice">
-			<input type="checkbox" id="checkboxes-example-2-6" name="nationality" value="other">
-			<label for="checkboxes-example-2-6" class="form-label">
-				Citizen of another country
-			</label>
-		</div>
-	</fieldset>
+  <fieldset>
+    <legend class="form-label-bold">
+      What is your nationality?
+      <span class="form-hint">
+        If you have dual nationality, select all options that are relevant to you.
+      </span>
+    </legend>
+    <div class="multiple-choice">
+      <input type="checkbox" id="checkboxes-example-2-1" name="nationality" value="british">
+      <label for="checkboxes-example-2-1" class="form-label">
+        British
+      </label>
+    </div>
+    <div class="multiple-choice">
+      <input type="checkbox" id="checkboxes-example-2-2" name="nationality" value="french">
+      <label for="checkboxes-example-2-2" class="form-label">
+        French
+      </label>
+    </div>
+    <div class="multiple-choice">
+      <input type="checkbox" id="checkboxes-example-2-3" name="nationality" value="german">
+      <label for="checkboxes-example-2-3" class="form-label">
+        German
+      </label>
+    </div>
+    <div class="multiple-choice">
+      <input type="checkbox" id="checkboxes-example-2-4" name="nationality" value="italian">
+      <label for="checkboxes-example-2-4" class="form-label">
+        Italian
+      </label>
+    </div>
+    <div class="multiple-choice">
+      <input type="checkbox" id="checkboxes-example-2-5" name="nationality" value="spanish">
+      <label for="checkboxes-example-2-5" class="form-label">
+        Spanish
+      </label>
+    </div>
+    <div class="multiple-choice">
+      <input type="checkbox" id="checkboxes-example-2-6" name="nationality" value="other">
+      <label for="checkboxes-example-2-6" class="form-label">
+        Citizen of another country
+      </label>
+    </div>
+  </fieldset>
 </div>
 ```
 
@@ -203,98 +203,98 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukCheckboxes({
-	"idPrefix": "nationality",
-	"name": "nationality",
-	"fieldset": {
-		"legend": {
-			"text": "What is your nationality?",
-			"classes": "form-label-bold"
-		}
-	},
-	"hint": {
-		"text": "If you have dual nationality, select all options that are relevant to you."
-	},
-	"errorMessage": {
-		"text": "Choose at least one nationality."
-	},
-	"items": [
-		{
-			"value": "british",
-			"text": "British"
-		},
-		{
-			"value": "french",
-			"text": "French"
-		},
-		{
-			"value": "german",
-			"text": "German"
-		},
-		{
-			"value": "italian",
-			"text": "Italian"
-		},
-		{
-			"value": "spanish",
-			"text": "Spanish"
-		},
-		{
-			"value": "other",
-			"text": "Citizen of another country"
-		}
-	]
+  "idPrefix": "nationality",
+  "name": "nationality",
+  "fieldset": {
+    "legend": {
+      "text": "What is your nationality?",
+      "classes": "form-label-bold"
+    }
+  },
+  "hint": {
+    "text": "If you have dual nationality, select all options that are relevant to you."
+  },
+  "errorMessage": {
+    "text": "Choose at least one nationality."
+  },
+  "items": [
+    {
+      "value": "british",
+      "text": "British"
+    },
+    {
+      "value": "french",
+      "text": "French"
+    },
+    {
+      "value": "german",
+      "text": "German"
+    },
+    {
+      "value": "italian",
+      "text": "Italian"
+    },
+    {
+      "value": "spanish",
+      "text": "Spanish"
+    },
+    {
+      "value": "other",
+      "text": "Citizen of another country"
+    }
+  ]
 }) }}
 ```
 #### Markup
 ```
 <div class="form-group form-group-error">
-	<fieldset>
-		<legend class="form-label-bold">
-			What is your nationality?
-			<span class="form-hint">
-				If you have dual nationality, select all options that are relevant to you.
-			</span>
-			<span id="checkboxes-example-3-error" class="error-message">
-			  Choose at least one nationality.
-			</span>
-		</legend>
-		<div class="multiple-choice">
-			<input type="checkbox" id="checkboxes-example-3-1" name="nationality" value="british">
-			<label for="checkboxes-example-3-1" class="form-label">
-				British
-			</label>
-		</div>
-		<div class="multiple-choice">
-			<input type="checkbox" id="checkboxes-example-3-2" name="nationality" value="french">
-			<label for="checkboxes-example-3-2" class="form-label">
-				French
-			</label>
-		</div>
-		<div class="multiple-choice">
-			<input type="checkbox" id="checkboxes-example-3-3" name="nationality" value="german">
-			<label for="checkboxes-example-3-3" class="form-label">
-				German
-			</label>
-		</div>
-		<div class="multiple-choice">
-			<input type="checkbox" id="checkboxes-example-3-4" name="nationality" value="italian">
-			<label for="checkboxes-example-3-4" class="form-label">
-				Italian
-			</label>
-		</div>
-		<div class="multiple-choice">
-			<input type="checkbox" id="checkboxes-example-3-5" name="nationality" value="spanish">
-			<label for="checkboxes-example-3-5" class="form-label">
-				Spanish
-			</label>
-		</div>
-		<div class="multiple-choice">
-			<input type="checkbox" id="checkboxes-example-3-6" name="nationality" value="other">
-			<label for="checkboxes-example-3-6" class="form-label">
-				Citizen of another country
-			</label>
-		</div>
-	</fieldset>
+  <fieldset>
+    <legend class="form-label-bold">
+      What is your nationality?
+      <span class="form-hint">
+        If you have dual nationality, select all options that are relevant to you.
+      </span>
+      <span id="checkboxes-example-3-error" class="error-message">
+        Choose at least one nationality.
+      </span>
+    </legend>
+    <div class="multiple-choice">
+      <input type="checkbox" id="checkboxes-example-3-1" name="nationality" value="british">
+      <label for="checkboxes-example-3-1" class="form-label">
+        British
+      </label>
+    </div>
+    <div class="multiple-choice">
+      <input type="checkbox" id="checkboxes-example-3-2" name="nationality" value="french">
+      <label for="checkboxes-example-3-2" class="form-label">
+        French
+      </label>
+    </div>
+    <div class="multiple-choice">
+      <input type="checkbox" id="checkboxes-example-3-3" name="nationality" value="german">
+      <label for="checkboxes-example-3-3" class="form-label">
+        German
+      </label>
+    </div>
+    <div class="multiple-choice">
+      <input type="checkbox" id="checkboxes-example-3-4" name="nationality" value="italian">
+      <label for="checkboxes-example-3-4" class="form-label">
+        Italian
+      </label>
+    </div>
+    <div class="multiple-choice">
+      <input type="checkbox" id="checkboxes-example-3-5" name="nationality" value="spanish">
+      <label for="checkboxes-example-3-5" class="form-label">
+        Spanish
+      </label>
+    </div>
+    <div class="multiple-choice">
+      <input type="checkbox" id="checkboxes-example-3-6" name="nationality" value="other">
+      <label for="checkboxes-example-3-6" class="form-label">
+        Citizen of another country
+      </label>
+    </div>
+  </fieldset>
 </div>
 ```
 
@@ -305,93 +305,93 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukCheckboxes({
-	"idPrefix": "nationality",
-	"name": "nationality",
-	"fieldset": {
-		"legend": {
-			"text": "What is your nationality?",
-			"classes": "form-label-bold"
-		}
-	},
-	"hint": {
-		"text": "If you have dual nationality, select all options that are relevant to you."
-	},
-	"items": [
-		{
-			"value": "british",
-			"text": "British"
-		},
-		{
-			"value": "french",
-			"text": "French"
-		},
-		{
-			"value": "german",
-			"text": "German"
-		},
-		{
-			"value": "italian",
-			"text": "Italian"
-		},
-		{
-			"value": "spanish",
-			"text": "Spanish"
-		},
-		{
-			"value": "other",
-			"text": "Citizen of another country",
-			"disabled": true
-		}
-	]
+  "idPrefix": "nationality",
+  "name": "nationality",
+  "fieldset": {
+    "legend": {
+      "text": "What is your nationality?",
+      "classes": "form-label-bold"
+    }
+  },
+  "hint": {
+    "text": "If you have dual nationality, select all options that are relevant to you."
+  },
+  "items": [
+    {
+      "value": "british",
+      "text": "British"
+    },
+    {
+      "value": "french",
+      "text": "French"
+    },
+    {
+      "value": "german",
+      "text": "German"
+    },
+    {
+      "value": "italian",
+      "text": "Italian"
+    },
+    {
+      "value": "spanish",
+      "text": "Spanish"
+    },
+    {
+      "value": "other",
+      "text": "Citizen of another country",
+      "disabled": true
+    }
+  ]
 }) }}
 ```
 #### Markup
 ```
 <div class="form-group">
-	<fieldset>
-		<legend class="form-label-bold">
-			What is your nationality?
-			<span class="form-hint">
-				If you have dual nationality, select all options that are relevant to you.
-			</span>
-		</legend>
-		<div class="multiple-choice">
-			<input type="checkbox" id="checkboxes-example-4-1" name="nationality" value="british">
-			<label for="checkboxes-example-4-1" class="form-label">
-				British
-			</label>
-		</div>
-		<div class="multiple-choice">
-			<input type="checkbox" id="checkboxes-example-4-2" name="nationality" value="french">
-			<label for="checkboxes-example-4-2" class="form-label">
-				French
-			</label>
-		</div>
-		<div class="multiple-choice">
-			<input type="checkbox" id="checkboxes-example-4-3" name="nationality" value="german">
-			<label for="checkboxes-example-4-3" class="form-label">
-				German
-			</label>
-		</div>
-		<div class="multiple-choice">
-			<input type="checkbox" id="checkboxes-example-4-4" name="nationality" value="italian">
-			<label for="checkboxes-example-4-4" class="form-label">
-				Italian
-			</label>
-		</div>
-		<div class="multiple-choice">
-			<input type="checkbox" id="checkboxes-example-4-5" name="nationality" value="spanish">
-			<label for="checkboxes-example-4-5" class="form-label">
-				Spanish
-			</label>
-		</div>
-		<div class="multiple-choice">
-			<input type="checkbox" id="checkboxes-example-4-6" name="nationality" value="other" disabled>
-			<label for="checkboxes-example-4-6" class="form-label">
-				Citizen of another country
-			</label>
-		</div>
-	</fieldset>
+  <fieldset>
+    <legend class="form-label-bold">
+      What is your nationality?
+      <span class="form-hint">
+        If you have dual nationality, select all options that are relevant to you.
+      </span>
+    </legend>
+    <div class="multiple-choice">
+      <input type="checkbox" id="checkboxes-example-4-1" name="nationality" value="british">
+      <label for="checkboxes-example-4-1" class="form-label">
+        British
+      </label>
+    </div>
+    <div class="multiple-choice">
+      <input type="checkbox" id="checkboxes-example-4-2" name="nationality" value="french">
+      <label for="checkboxes-example-4-2" class="form-label">
+        French
+      </label>
+    </div>
+    <div class="multiple-choice">
+      <input type="checkbox" id="checkboxes-example-4-3" name="nationality" value="german">
+      <label for="checkboxes-example-4-3" class="form-label">
+        German
+      </label>
+    </div>
+    <div class="multiple-choice">
+      <input type="checkbox" id="checkboxes-example-4-4" name="nationality" value="italian">
+      <label for="checkboxes-example-4-4" class="form-label">
+        Italian
+      </label>
+    </div>
+    <div class="multiple-choice">
+      <input type="checkbox" id="checkboxes-example-4-5" name="nationality" value="spanish">
+      <label for="checkboxes-example-4-5" class="form-label">
+        Spanish
+      </label>
+    </div>
+    <div class="multiple-choice">
+      <input type="checkbox" id="checkboxes-example-4-6" name="nationality" value="other" disabled>
+      <label for="checkboxes-example-4-6" class="form-label">
+        Citizen of another country
+      </label>
+    </div>
+  </fieldset>
 </div>
 ```
 
@@ -402,83 +402,83 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukCheckboxes({
-	"idPrefix": "checkboxes-example-5",
-	"name": "contact",
-	"fieldset": {
-		"legend": {
-			"text": "How do you want to be contacted?",
-			"classes": "form-label-bold"
-		}
-	},
-	"hint": {
-		"text": "Select all options that are relevant to you."
-	},
-	"items": [
-		{
-			"value": "email",
-			"text": "Email",
-			"conditional": {
-				"html": email_panel_html
-			}
-		},
-		{
-			"value": "phone",
-			"text": "Phone",
-			"conditional": {
-				"html": phone_panel_html
-			}
-		},
-		{
-			"value": "text",
-			"text": "Text message",
-			"conditional": {
-				"html": message_panel_html
-			}
-		}
-	]
+  "idPrefix": "checkboxes-example-5",
+  "name": "contact",
+  "fieldset": {
+    "legend": {
+      "text": "How do you want to be contacted?",
+      "classes": "form-label-bold"
+    }
+  },
+  "hint": {
+    "text": "Select all options that are relevant to you."
+  },
+  "items": [
+    {
+      "value": "email",
+      "text": "Email",
+      "conditional": {
+        "html": email_panel_html
+      }
+    },
+    {
+      "value": "phone",
+      "text": "Phone",
+      "conditional": {
+        "html": phone_panel_html
+      }
+    },
+    {
+      "value": "text",
+      "text": "Text message",
+      "conditional": {
+        "html": message_panel_html
+      }
+    }
+  ]
 }) }}
 ```
 #### Markup
 ```
 <div class="form-group">
-	<fieldset>
-		<legend class="form-label-bold">
-			How do you want to be contacted?
-			<span class="form-hint">
-				Select all options that are relevant to you.
-			</span>
-		</legend>
-		<div class="multiple-choice" data-target="checkboxes-example-5-1-panel">
-			<input type="checkbox" id="checkboxes-example-5-1" name="contact" value="email" aria-controls="checkboxes-example-5-1-panel" aria-expanded="false">
-			<label for="checkboxes-example-5-1" class="form-label">
-				Email
-			</label>
-		</div>
-		<div class="panel panel-border-narrow js-hidden" id="checkboxes-example-5-1-panel" aria-hidden="true">
-			<label class="form-label" for="contact-email">Email address</label>
-			<input class="form-control" name="contact-email" type="text" id="contact-email">
-		</div>
-		<div class="multiple-choice" data-target="checkboxes-example-5-2-panel">
-			<input type="checkbox" id="checkboxes-example-5-2" name="contact" value="phone" aria-controls="checkboxes-example-5-2-panel" aria-expanded="false">
-			<label for="checkboxes-example-5-2" class="form-label">
-				Phone
-			</label>
-		</div>
-		<div class="panel panel-border-narrow js-hidden" id="checkboxes-example-5-2-panel" aria-hidden="true">
-			<label class="form-label" for="contact-phone">Phone number</label>
-			<input class="form-control" name="contact-phone" type="text" id="contact-phone">
-		</div>
-		<div class="multiple-choice" data-target="checkboxes-example-5-3-panel">
-			<input type="checkbox" id="checkboxes-example-5-3" name="contact" value="text" aria-controls="checkboxes-example-5-3-panel" aria-expanded="false">
-			<label for="checkboxes-example-5-3" class="form-label">
-				Text message
-			</label>
-		</div>
-		<div class="panel panel-border-narrow js-hidden" id="checkboxes-example-5-3-panel" aria-hidden="true">
-			<label class="form-label" for="contact-mobile">Mobile phone number</label>
-			<input class="form-control" name="contact-mobile" type="text" id="contact-mobile">
-		</div>
-	</fieldset>
+  <fieldset>
+    <legend class="form-label-bold">
+      How do you want to be contacted?
+      <span class="form-hint">
+        Select all options that are relevant to you.
+      </span>
+    </legend>
+    <div class="multiple-choice" data-target="checkboxes-example-5-1-panel">
+      <input type="checkbox" id="checkboxes-example-5-1" name="contact" value="email" aria-controls="checkboxes-example-5-1-panel" aria-expanded="false">
+      <label for="checkboxes-example-5-1" class="form-label">
+        Email
+      </label>
+    </div>
+    <div class="panel panel-border-narrow js-hidden" id="checkboxes-example-5-1-panel" aria-hidden="true">
+      <label class="form-label" for="contact-email">Email address</label>
+      <input class="form-control" name="contact-email" type="text" id="contact-email">
+    </div>
+    <div class="multiple-choice" data-target="checkboxes-example-5-2-panel">
+      <input type="checkbox" id="checkboxes-example-5-2" name="contact" value="phone" aria-controls="checkboxes-example-5-2-panel" aria-expanded="false">
+      <label for="checkboxes-example-5-2" class="form-label">
+        Phone
+      </label>
+    </div>
+    <div class="panel panel-border-narrow js-hidden" id="checkboxes-example-5-2-panel" aria-hidden="true">
+      <label class="form-label" for="contact-phone">Phone number</label>
+      <input class="form-control" name="contact-phone" type="text" id="contact-phone">
+    </div>
+    <div class="multiple-choice" data-target="checkboxes-example-5-3-panel">
+      <input type="checkbox" id="checkboxes-example-5-3" name="contact" value="text" aria-controls="checkboxes-example-5-3-panel" aria-expanded="false">
+      <label for="checkboxes-example-5-3" class="form-label">
+        Text message
+      </label>
+    </div>
+    <div class="panel panel-border-narrow js-hidden" id="checkboxes-example-5-3-panel" aria-hidden="true">
+      <label class="form-label" for="contact-mobile">Mobile phone number</label>
+      <input class="form-control" name="contact-mobile" type="text" id="contact-mobile">
+    </div>
+  </fieldset>
 </div>
 ```
 

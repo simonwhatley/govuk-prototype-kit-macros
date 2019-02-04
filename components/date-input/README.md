@@ -67,34 +67,34 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Markup
 ```
 <div class="form-group" role="group">
-    <fieldset>
-        <legend class="form-label-bold">
-            What is your date of birth?
-            <span for="date-of-birth-hint" class="form-hint">
-                For example, 31 3 1980
-            </span>
-        </legend>
-        <div class="form-date">
-            <div class="form-group form-group-day">
-                <label for="dob-day" class="form-label">
-                    Day
-                </label>
-                <input class="form-control" id="dob-day" name="dob-day" type="number">
-            </div>
-            <div class="form-group form-group-month">
-                <label for="dob-month" class="form-label">
-                    Month
-                </label>
-                <input class="form-control" id="dob-month" name="dob-month" type="number">
-            </div>
-            <div class="form-group form-group-year">
-                <label for="dob-year" class="form-label">
-                    Year
-                </label>
-                <input class="form-control" id="dob-year" name="dob-year" type="number">
-            </div>
-        </div>
-    </fieldset>
+  <fieldset>
+    <legend class="form-label-bold">
+      What is your date of birth?
+      <span for="date-of-birth-hint" class="form-hint">
+        For example, 31 3 1980
+      </span>
+    </legend>
+    <div class="form-date">
+      <div class="form-group form-group-day">
+        <label for="dob-day" class="form-label">
+          Day
+        </label>
+        <input class="form-control" id="dob-day" name="dob-day" type="number">
+      </div>
+      <div class="form-group form-group-month">
+        <label for="dob-month" class="form-label">
+          Month
+        </label>
+        <input class="form-control" id="dob-month" name="dob-month" type="number">
+      </div>
+      <div class="form-group form-group-year">
+        <label for="dob-year" class="form-label">
+          Year
+        </label>
+        <input class="form-control" id="dob-year" name="dob-year" type="number">
+      </div>
+    </div>
+  </fieldset>
 </div>
 ```
 
@@ -158,37 +158,37 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Markup
 ```
 <div class="form-group form-group-error" role="group">
-    <fieldset>
-        <legend class="form-label-bold">
-            What is your date of birth?
-            <span for="date-of-birth-hint" class="form-hint">
-                For example, 31 3 1980
-            </span>
-            <span id="date-of-birth-error" class="error-message">
-                Error message goes here
-            </span>
-        </legend>
-        <div class="form-date">
-            <div class="form-group form-group-day">
-                <label for="dob-day" class="form-label">
-                    Day
-                </label>
-                <input class="form-control form-control-error" id="dob-day" name="dob-day" type="number">
-            </div>
-            <div class="form-group form-group-month">
-                <label for="dob-month" class="form-label">
-                    Month
-                </label>
-                <input class="form-control form-control-error" id="dob-month" name="dob-month" type="number">
-            </div>
-            <div class="form-group form-group-year">
-                <label for="dob-year" class="form-label">
-                    Year
-                </label>
-                <input class="form-control form-control-error" id="dob-year" name="dob-year" type="number">
-            </div>
-        </div>
-    </fieldset>
+  <fieldset>
+    <legend class="form-label-bold">
+      What is your date of birth?
+      <span for="date-of-birth-hint" class="form-hint">
+        For example, 31 3 1980
+      </span>
+      <span id="date-of-birth-error" class="error-message">
+        Error message goes here
+      </span>
+    </legend>
+    <div class="form-date">
+      <div class="form-group form-group-day">
+        <label for="dob-day" class="form-label">
+          Day
+        </label>
+        <input class="form-control form-control-error" id="dob-day" name="dob-day" type="number">
+      </div>
+      <div class="form-group form-group-month">
+        <label for="dob-month" class="form-label">
+          Month
+        </label>
+        <input class="form-control form-control-error" id="dob-month" name="dob-month" type="number">
+      </div>
+      <div class="form-group form-group-year">
+        <label for="dob-year" class="form-label">
+          Year
+        </label>
+        <input class="form-control form-control-error" id="dob-year" name="dob-year" type="number">
+      </div>
+    </div>
+  </fieldset>
 </div>
 ```
 
@@ -246,7 +246,7 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 			"name": "dob-year",
 			"formGroup": {
 				"classes": "form-group-year"
-			},
+		},
 			"type": "number",
 			"label": {
 				"text": "Year"
@@ -264,34 +264,34 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Markup
 ```
 <div class="form-group" role="group">
-    <fieldset>
-        <legend class="form-label-bold">
-            What is your date of birth?
-            <span for="date-of-birth-hint" class="form-hint">
-                For example, 31 3 1980
-            </span>
-        </legend>
-        <div class="form-date">
-            <div class="form-group form-group-day">
-                <label for="dob-day" class="form-label">
-                    Day
-                </label>
-                <input class="form-control" id="dob-day" name="dob-day" type="number" pattern="[0-9]*" max="31" min="1">
-            </div>
-            <div class="form-group form-group-month">
-                <label for="dob-month" class="form-label">
-                    Month
-                </label>
-                <input class="form-control" id="dob-month" name="dob-month" type="number" pattern="[0-9]*" max="31" min="1">
-            </div>
-            <div class="form-group form-group-year">
-                <label for="dob-year" class="form-label">
-                    Year
-                </label>
-                <input class="form-control" id="dob-year" name="dob-year" type="number" pattern="[0-9]*" max="2019" min="1900">
-            </div>
-        </div>
-    </fieldset>
+  <fieldset>
+    <legend class="form-label-bold">
+      What is your date of birth?
+      <span for="date-of-birth-hint" class="form-hint">
+        For example, 31 3 1980
+      </span>
+    </legend>
+    <div class="form-date">
+      <div class="form-group form-group-day">
+        <label for="dob-day" class="form-label">
+          Day
+        </label>
+        <input class="form-control" id="dob-day" name="dob-day" type="number" pattern="[0-9]*" max="31" min="1">
+      </div>
+      <div class="form-group form-group-month">
+        <label for="dob-month" class="form-label">
+          Month
+        </label>
+        <input class="form-control" id="dob-month" name="dob-month" type="number" pattern="[0-9]*" max="31" min="1">
+      </div>
+      <div class="form-group form-group-year">
+        <label for="dob-year" class="form-label">
+          Year
+        </label>
+        <input class="form-control" id="dob-year" name="dob-year" type="number" pattern="[0-9]*" max="2019" min="1900">
+      </div>
+    </div>
+  </fieldset>
 </div>
 ```
 
@@ -355,34 +355,34 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Markup
 ```
 <div class="form-group" role="group">
-    <fieldset>
-        <legend class="form-label-bold">
-            What is your date of birth?
-            <span for="date-of-birth-hint" class="form-hint">
-                For example, 31 3 1980
-            </span>
-        </legend>
-        <div class="form-date">
-            <div class="form-group form-group-day">
-                <label for="dob-day" class="form-label">
-                    Day
-                </label>
-                <input class="form-control" id="dob-day" name="dob-day" type="number" value="1">
-            </div>
-            <div class="form-group form-group-month">
-                <label for="dob-month" class="form-label">
-                    Month
-                </label>
-                <input class="form-control" id="dob-month" name="dob-month" type="number" value="1">
-            </div>
-            <div class="form-group form-group-year">
-                <label for="dob-year" class="form-label">
-                    Year
-                </label>
-                <input class="form-control" id="dob-year" name="dob-year" type="number" value="1970">
-            </div>
-        </div>
-    </fieldset>
+  <fieldset>
+    <legend class="form-label-bold">
+      What is your date of birth?
+      <span for="date-of-birth-hint" class="form-hint">
+        For example, 31 3 1980
+      </span>
+    </legend>
+    <div class="form-date">
+      <div class="form-group form-group-day">
+        <label for="dob-day" class="form-label">
+          Day
+        </label>
+        <input class="form-control" id="dob-day" name="dob-day" type="number" value="1">
+      </div>
+      <div class="form-group form-group-month">
+        <label for="dob-month" class="form-label">
+          Month
+        </label>
+        <input class="form-control" id="dob-month" name="dob-month" type="number" value="1">
+      </div>
+      <div class="form-group form-group-year">
+        <label for="dob-year" class="form-label">
+          Year
+        </label>
+        <input class="form-control" id="dob-year" name="dob-year" type="number" value="1970">
+      </div>
+    </div>
+  </fieldset>
 </div>
 ```
 

@@ -17,14 +17,14 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukHint({
-	"text": "It’s on your National Insurance card, benefit letter, payslip or P60. For example, 'QQ 12 34 56 C'."
+  "text": "It’s on your National Insurance card, benefit letter, payslip or P60. For example, 'QQ 12 34 56 C'."
 }) }}
 ```
 
 #### Markup
 ```
 <span class="form-hint">
-	It’s on your National Insurance card, benefit letter, payslip or P60. For example, 'QQ 12 34 56 C'.
+  It’s on your National Insurance card, benefit letter, payslip or P60. For example, 'QQ 12 34 56 C'.
 </span>
 ```
 

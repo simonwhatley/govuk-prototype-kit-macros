@@ -17,19 +17,19 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukWarningText({
-	"text": "You can be fined up to £5,000 if you don’t register."
+  "text": "You can be fined up to £5,000 if you don’t register."
 }) }}
 ```
 
 #### Markup
 ```
 <div class="notice ">
-	<i class="icon icon-important">
-		<span class="visually-hidden">Warning</span>
-	</i>
-	<strong class="bold-small">
-		You can be fined up to £5,000 if you don’t register.
-	</strong>
+  <i class="icon icon-important">
+    <span class="visually-hidden">Warning</span>
+  </i>
+  <strong class="bold-small">
+    You can be fined up to £5,000 if you don’t register.
+  </strong>
 </div>
 ```
 

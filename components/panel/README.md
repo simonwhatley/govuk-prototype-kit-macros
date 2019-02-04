@@ -19,20 +19,20 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukPanel({
-	"titleHtml": "Application complete",
-  	"html": "Your reference number is <span class='bold'>SW12345PF</span>"
+  "titleHtml": "Application complete",
+    "html": "Your reference number is <span class='bold'>SW12345PF</span>"
 }) }}
 ```
 
 #### Markup
 ```
 <div class="confirmation">
-	<h1 class="heading-xlarge">
-		Application complete
-	</h1>
-	<p>
-		Your reference number is <span class="bold">SW12345PF</span>
-	</p>
+  <h1 class="heading-xlarge">
+    Application complete
+  </h1>
+  <p>
+    Your reference number is <span class="bold">SW12345PF</span>
+  </p>
 </div>
 ```
 

@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The select component allows users to choose an option from a long list.
+Use the select component to allow users to choose an option from a long list.
 
 ## Guidance
 
@@ -19,45 +19,45 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukSelect({
-	"id": "example-1",
-	"name": "example-1",
-	"label": {
-		"text": "Label text goes here",
-		"classes": "form-label-bold"
-	},
-	"items": [
-		{
-			"value": "",
-			"text": "Select an option"
-		},
-		{
-			"value": 1,
-			"text": "Option 1"
-		},
-		{
-			"value": 2,
-			"text": "Option 2"
-		},
-		{
-			"value": 3,
-			"text": "Option 3"
-		}
-	]
+  "id": "example-1",
+  "name": "example-1",
+  "label": {
+    "text": "Label text goes here",
+    "classes": "form-label-bold"
+  },
+  "items": [
+    {
+      "value": "",
+      "text": "Select an option"
+    },
+    {
+      "value": 1,
+      "text": "Option 1"
+    },
+    {
+      "value": 2,
+      "text": "Option 2"
+    },
+    {
+      "value": 3,
+      "text": "Option 3"
+    }
+  ]
 }) }}
 ```
 
 #### Markup
 ```
 <div class="form-group">
-	<label for="example-1" class="form-label-bold">
-		Label text goes here
-	</label>
-	<select id="example-1" class="form-control" name="example-1">
-		<option value="">Select an option</option>
-		<option value="1">Option 1</option>
-		<option value="2">Option 2</option>
-		<option value="3">Option 3</option>
-	</select>
+  <label for="example-1" class="form-label-bold">
+    Label text goes here
+  </label>
+  <select id="example-1" class="form-control" name="example-1">
+    <option value="">Select an option</option>
+    <option value="1">Option 1</option>
+    <option value="2">Option 2</option>
+    <option value="3">Option 3</option>
+  </select>
 </div>
 ```
 
@@ -68,51 +68,51 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukSelect({
-	"id": "example-2",
-	"name": "example-2",
-	"label": {
-		"text": "Label text goes here",
-		"classes": "form-label-bold"
-	},
-	"hint": {
-		"text": "Hint text goes here"
-	},
-	"items": [
-		{
-			"value": "",
-			"text": "Select an option"
-		},
-		{
-			"value": 1,
-			"text": "Option 1"
-		},
-		{
-			"value": 2,
-			"text": "Option 2"
-		},
-		{
-			"value": 3,
-			"text": "Option 3"
-		}
-	]
+  "id": "example-2",
+  "name": "example-2",
+  "label": {
+    "text": "Label text goes here",
+    "classes": "form-label-bold"
+  },
+  "hint": {
+    "text": "Hint text goes here"
+  },
+  "items": [
+    {
+      "value": "",
+      "text": "Select an option"
+    },
+    {
+      "value": 1,
+      "text": "Option 1"
+    },
+    {
+      "value": 2,
+      "text": "Option 2"
+    },
+    {
+      "value": 3,
+      "text": "Option 3"
+    }
+  ]
 }) }}
 ```
 
 #### Markup
 ```
 <div class="form-group">
-	<label for="example-2" class="form-label-bold">
-		Label text goes here
-		<span for="example-2-hint" class="form-hint">
-			Hint text goes here
-		</span>
-	</label>
-	<select id="example-2" class="form-control" name="example-2">
-		<option value="">Select an option</option>
-		<option value="1">Option 1</option>
-		<option value="2">Option 2</option>
-		<option value="3">Option 3</option>
-	</select>
+  <label for="example-2" class="form-label-bold">
+    Label text goes here
+    <span for="example-2-hint" class="form-hint">
+      Hint text goes here
+    </span>
+  </label>
+  <select id="example-2" class="form-control" name="example-2">
+    <option value="">Select an option</option>
+    <option value="1">Option 1</option>
+    <option value="2">Option 2</option>
+    <option value="3">Option 3</option>
+  </select>
 </div>
 ```
 
@@ -123,36 +123,36 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukSelect({
-	"id": "example-3",
-	"name": "example-3",
-	"label": {
-		"text": "Label text goes here",
-		"classes": "form-label-bold"
-	},
-	"hint": {
-		"text": "Hint text goes here"
-	},
-	"errorMessage": {
-		"text": "Error message goes here"
-	},
-	"items": [
-		{
-			"value": "",
-			"text": "Select an option"
-		},
-		{
-			"value": 1,
-			"text": "Option 1"
-		},
-		{
-			"value": 2,
-			"text": "Option 2"
-		},
-		{
-			"value": 3,
-			"text": "Option 3"
-		}
-	]
+  "id": "example-3",
+  "name": "example-3",
+  "label": {
+    "text": "Label text goes here",
+    "classes": "form-label-bold"
+  },
+  "hint": {
+    "text": "Hint text goes here"
+  },
+  "errorMessage": {
+    "text": "Error message goes here"
+  },
+  "items": [
+    {
+      "value": "",
+      "text": "Select an option"
+    },
+    {
+      "value": 1,
+      "text": "Option 1"
+    },
+    {
+      "value": 2,
+      "text": "Option 2"
+    },
+    {
+      "value": 3,
+      "text": "Option 3"
+    }
+  ]
 }) }}
 
 ```
@@ -160,21 +160,21 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Markup
 ```
 <div class="form-group form-group-error">
-	<label for="example-3" class="form-label-bold">
-		Label text goes here
-		<span for="example-3-hint" class="form-hint">
-			Hint text goes here
-		</span>
-	</label>
-	<span id="example-3-error" class="error-message">
-	  Error message goes here
-	</span>
-	<select id="example-3" class="form-control form-control-error" name="example-3">
-		<option value="">Select an option</option>
-		<option value="1">Option 1</option>
-		<option value="2">Option 2</option>
-		<option value="3">Option 3</option>
-	</select>
+  <label for="example-3" class="form-label-bold">
+    Label text goes here
+    <span for="example-3-hint" class="form-hint">
+      Hint text goes here
+    </span>
+  </label>
+  <span id="example-3-error" class="error-message">
+    Error message goes here
+  </span>
+  <select id="example-3" class="form-control form-control-error" name="example-3">
+    <option value="">Select an option</option>
+    <option value="1">Option 1</option>
+    <option value="2">Option 2</option>
+    <option value="3">Option 3</option>
+  </select>
 </div>
 ```
 
@@ -185,52 +185,52 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukSelect({
-	"id": "example-4",
-	"name": "example-4",
-	"classes": "form-control-3-4",
-	"label": {
-		"text": "Label text goes here",
-		"classes": "form-label-bold"
-	},
-	"hint": {
-		"text": "Hint text goes here"
-	},
-	"items": [
-		{
-			"value": "",
-			"text": "Select an option"
-		},
-		{
-			"value": 1,
-			"text": "Option 1"
-		},
-		{
-			"value": 2,
-			"text": "Option 2"
-		},
-		{
-			"value": 3,
-			"text": "Option 3"
-		}
-	]
+  "id": "example-4",
+  "name": "example-4",
+  "classes": "form-control-3-4",
+  "label": {
+    "text": "Label text goes here",
+    "classes": "form-label-bold"
+  },
+  "hint": {
+    "text": "Hint text goes here"
+  },
+  "items": [
+    {
+      "value": "",
+      "text": "Select an option"
+    },
+    {
+      "value": 1,
+      "text": "Option 1"
+    },
+    {
+      "value": 2,
+      "text": "Option 2"
+    },
+    {
+      "value": 3,
+      "text": "Option 3"
+    }
+  ]
 }) }}
 ```
 
 #### Markup
 ```
 <div class="form-group">
-	<label for="example-4" class="form-label-bold">
-		Label text goes here
-		<span for="example-4-hint" class="form-hint">
-			Hint text goes here
-		</span>
-	</label>
-	<select id="example-4" class="form-control form-control-3-4" name="example-4">
-		<option value="">Select an option</option>
-		<option value="1">Option 1</option>
-		<option value="2">Option 2</option>
-		<option value="3">Option 3</option>
-	</select>
+  <label for="example-4" class="form-label-bold">
+    Label text goes here
+    <span for="example-4-hint" class="form-hint">
+      Hint text goes here
+    </span>
+  </label>
+  <select id="example-4" class="form-control form-control-3-4" name="example-4">
+    <option value="">Select an option</option>
+    <option value="1">Option 1</option>
+    <option value="2">Option 2</option>
+    <option value="3">Option 3</option>
+  </select>
 </div>
 ```
 
@@ -241,54 +241,54 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukSelect({
-	"id": "example-5",
-	"name": "example-5",
-	"label": {
-		"text": "Label text goes here",
-		"classes": "heading-xlarge",
-		"isPageHeading": true
-	},
-	"hint": {
-		"text": "Hint text goes here"
-	},
-	"items": [
-		{
-			"value": "",
-			"text": "Select an option"
-		},
-		{
-			"value": 1,
-			"text": "Option 1"
-		},
-		{
-			"value": 2,
-			"text": "Option 2"
-		},
-		{
-			"value": 3,
-			"text": "Option 3"
-		}
-	]
+  "id": "example-5",
+  "name": "example-5",
+  "label": {
+    "text": "Label text goes here",
+    "classes": "heading-xlarge",
+    "isPageHeading": true
+  },
+  "hint": {
+    "text": "Hint text goes here"
+  },
+  "items": [
+    {
+      "value": "",
+      "text": "Select an option"
+    },
+    {
+      "value": 1,
+      "text": "Option 1"
+    },
+    {
+      "value": 2,
+      "text": "Option 2"
+    },
+    {
+      "value": 3,
+      "text": "Option 3"
+    }
+  ]
 }) }}
 ```
 
 #### Markup
 ```
 <div class="form-group">
-	<h1>
-		<label for="example-5" class="heading-xlarge">
-			Label text goes here
-			<span for="example-5-hint" class="form-hint">
-				Hint text goes here
-			</span>
-		</label>
-	</h1>
-	<select id="example-5" class="form-control" name="example-5">
-		<option value="">Select an option</option>
-		<option value="1">Option 1</option>
-		<option value="2">Option 2</option>
-		<option value="3">Option 3</option>
-	</select>
+  <h1>
+    <label for="example-5" class="heading-xlarge">
+      Label text goes here
+      <span for="example-5-hint" class="form-hint">
+        Hint text goes here
+      </span>
+    </label>
+  </h1>
+  <select id="example-5" class="form-control" name="example-5">
+    <option value="">Select an option</option>
+    <option value="1">Option 1</option>
+    <option value="2">Option 2</option>
+    <option value="3">Option 3</option>
+  </select>
 </div>
 ```
 
@@ -299,52 +299,52 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukSelect({
-	"id": "example-6",
-	"name": "example-6",
-	"label": {
-		"text": "Label text goes here",
-		"classes": "form-label-bold"
-	},
-	"hint": {
-		"text": "Hint text goes here"
-	},
-	"items": [
-		{
-			"value": "",
-			"text": "Select an option"
-		},
-		{
-			"value": 1,
-			"text": "Option 1",
-			"selected": true
-		},
-		{
-			"value": 2,
-			"text": "Option 2"
-		},
-		{
-			"value": 3,
-			"text": "Option 3"
-		}
-	]
+  "id": "example-6",
+  "name": "example-6",
+  "label": {
+    "text": "Label text goes here",
+    "classes": "form-label-bold"
+  },
+  "hint": {
+    "text": "Hint text goes here"
+  },
+  "items": [
+    {
+      "value": "",
+      "text": "Select an option"
+    },
+    {
+      "value": 1,
+      "text": "Option 1",
+      "selected": true
+    },
+    {
+      "value": 2,
+      "text": "Option 2"
+    },
+    {
+      "value": 3,
+      "text": "Option 3"
+    }
+  ]
 }) }}
 ```
 
 #### Markup
 ```
 <div class="form-group">
-	<label for="example-6" class="form-label-bold">
-		Label text goes here
-		<span for="example-6-hint" class="form-hint">
-			Hint text goes here
-		</span>
-	</label>
-	<select id="example-6" class="form-control" name="example-6">
-		<option value="">Select an option</option>
-		<option value="1" selected>Option 1</option>
-		<option value="2">Option 2</option>
-		<option value="3">Option 3</option>
-	</select>
+  <label for="example-6" class="form-label-bold">
+    Label text goes here
+    <span for="example-6-hint" class="form-hint">
+      Hint text goes here
+    </span>
+  </label>
+  <select id="example-6" class="form-control" name="example-6">
+    <option value="">Select an option</option>
+    <option value="1" selected>Option 1</option>
+    <option value="2">Option 2</option>
+    <option value="3">Option 3</option>
+  </select>
 </div>
 ```
 
@@ -355,52 +355,52 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukSelect({
-	"id": "example-7",
-	"name": "example-7",
-	"label": {
-		"text": "Label text goes here",
-		"classes": "form-label-bold"
-	},
-	"hint": {
-		"text": "Hint text goes here"
-	},
-	"items": [
-		{
-			"value": "",
-			"text": "Select an option"
-		},
-		{
-			"value": 1,
-			"text": "Option 1"
-		},
-		{
-			"value": 2,
-			"text": "Option 2",
-			"disabled": true
-		},
-		{
-			"value": 3,
-			"text": "Option 3"
-		}
-	]
+  "id": "example-7",
+  "name": "example-7",
+  "label": {
+    "text": "Label text goes here",
+    "classes": "form-label-bold"
+  },
+  "hint": {
+    "text": "Hint text goes here"
+  },
+  "items": [
+    {
+      "value": "",
+      "text": "Select an option"
+    },
+    {
+      "value": 1,
+      "text": "Option 1"
+    },
+    {
+      "value": 2,
+      "text": "Option 2",
+      "disabled": true
+    },
+    {
+      "value": 3,
+      "text": "Option 3"
+    }
+  ]
 }) }}
 ```
 
 #### Markup
 ```
 <div class="form-group">
-	<label for="example-7" class="form-label-bold">
-		Label text goes here
-		<span for="example-7-hint" class="form-hint">
-			Hint text goes here
-		</span>
-	</label>
-	<select id="example-7" class="form-control" name="example-7">
-		<option value="">Select an option</option>
-		<option value="1">Option 1</option>
-		<option value="2" disabled>Option 2</option>
-		<option value="3">Option 3</option>
-	</select>
+  <label for="example-7" class="form-label-bold">
+    Label text goes here
+    <span for="example-7-hint" class="form-hint">
+      Hint text goes here
+    </span>
+  </label>
+  <select id="example-7" class="form-control" name="example-7">
+    <option value="">Select an option</option>
+    <option value="1">Option 1</option>
+    <option value="2" disabled>Option 2</option>
+    <option value="3">Option 3</option>
+  </select>
 </div>
 ```
 
@@ -411,63 +411,63 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukSelect({
-	"id": "example-8",
-	"name": "example-8",
-	"label": {
-		"text": "Label text goes here",
-		"classes": "form-label-bold"
-	},
-	"hint": {
-		"text": "Hint text goes here"
-	},
-	"items": [
-		{
-			"value": "",
-			"text": "Select an option"
-		},
-		{
-			"value": 1,
-			"text": "Option 1",
-			"attributes": {
-				"data-destination": true,
-				"data-cost": true
-			}
-		},
-		{
-			"value": 2,
-			"text": "Option 2",
-			"attributes": {
-				"data-destination": false,
-				"data-cost": false
-			}
-		},
-		{
-			"value": 3,
-			"text": "Option 3",
-			"attributes": {
-				"data-destination": true,
-				"data-cost": true
-			}
-		}
-	]
+  "id": "example-8",
+  "name": "example-8",
+  "label": {
+    "text": "Label text goes here",
+    "classes": "form-label-bold"
+  },
+  "hint": {
+    "text": "Hint text goes here"
+  },
+  "items": [
+    {
+      "value": "",
+      "text": "Select an option"
+    },
+    {
+      "value": 1,
+      "text": "Option 1",
+      "attributes": {
+        "data-destination": true,
+        "data-cost": true
+      }
+    },
+    {
+      "value": 2,
+      "text": "Option 2",
+      "attributes": {
+        "data-destination": false,
+        "data-cost": false
+      }
+    },
+    {
+      "value": 3,
+      "text": "Option 3",
+      "attributes": {
+        "data-destination": true,
+        "data-cost": true
+      }
+    }
+  ]
 }) }}
 ```
 
 #### Markup
 ```
 <div class="form-group">
-	<label for="example-8" class="form-label-bold">
-		Label text goes here
-		<span for="example-8-hint" class="form-hint">
-			Hint text goes here
-		</span>
-	</label>
-	<select id="example-8" class="form-control" name="example-8">
-		<option value="">Select an option</option>
-		<option value="1" data-destination="true" data-cost="true">Option 1</option>
-		<option value="2" data-destination="false" data-cost="false">Option 2</option>
-		<option value="3" data-destination="true" data-cost="true">Option 3</option>
-	</select>
+  <label for="example-8" class="form-label-bold">
+    Label text goes here
+    <span for="example-8-hint" class="form-hint">
+      Hint text goes here
+    </span>
+  </label>
+  <select id="example-8" class="form-control" name="example-8">
+    <option value="">Select an option</option>
+    <option value="1" data-destination="true" data-cost="true">Option 1</option>
+    <option value="2" data-destination="false" data-cost="false">Option 2</option>
+    <option value="3" data-destination="true" data-cost="true">Option 3</option>
+  </select>
 </div>
 ```
 

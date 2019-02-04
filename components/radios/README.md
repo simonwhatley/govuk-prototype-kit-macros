@@ -17,77 +17,77 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukRadios({
-	"idPrefix": "example-1",
-	"name": "example-1",
-	"fieldset": {
-		"legend": {
-			"text": "To what extent do you agree?",
-			"classes": "form-label-bold"
-		}
-	},
-	"items": [
-		{
-			"value": "1",
-			"text": "Strongly disagree"
-		},
-		{
-			"value": "2",
-			"text": "Disagree"
-		},
-		{
-			"value": "3",
-			"text": "Neither agree nor disagree"
-		},
-		{
-			"value": "4",
-			"text": "Agree"
-		},
-		{
-			"value": "5",
-			"text": "Strongly agree"
-		}
-	]
+  "idPrefix": "example-1",
+  "name": "example-1",
+  "fieldset": {
+    "legend": {
+      "text": "To what extent do you agree?",
+      "classes": "form-label-bold"
+    }
+  },
+  "items": [
+    {
+      "value": "1",
+      "text": "Strongly disagree"
+    },
+    {
+      "value": "2",
+      "text": "Disagree"
+    },
+    {
+      "value": "3",
+      "text": "Neither agree nor disagree"
+    },
+    {
+      "value": "4",
+      "text": "Agree"
+    },
+    {
+      "value": "5",
+      "text": "Strongly agree"
+    }
+  ]
 }) }}
 ```
 
 #### Markup
 ```
 <div class="form-group">
-	<fieldset>
-		<legend class="form-label-bold">
-			To what extent do you agree?
-		</legend>
-		<div class="multiple-choice">
-			<input type="radio" id="example-1-1" name="example-1" value="1">
-			<label for="example-1-1" class="form-label">
-				Strongly disagree
-			</label>
-		</div>
-		<div class="multiple-choice">
-			<input type="radio" id="example-1-2" name="example-1" value="2">
-			<label for="example-1-2" class="form-label">
-				Disagree
-			</label>
-		</div>
-		<div class="multiple-choice">
-			<input type="radio" id="example-1-3" name="example-1" value="3">
-			<label for="example-1-3" class="form-label">
-				Neither agree nor disagree
-			</label>
-		</div>
-		<div class="multiple-choice">
-			<input type="radio" id="example-1-4" name="example-1" value="4">
-			<label for="example-1-4" class="form-label">
-				Agree
-			</label>
-		</div>
-		<div class="multiple-choice">
-			<input type="radio" id="example-1-5" name="example-1" value="5">
-			<label for="example-1-5" class="form-label">
-				Strongly agree
-			</label>
-		</div>
-	</fieldset>
+  <fieldset>
+    <legend class="form-label-bold">
+      To what extent do you agree?
+    </legend>
+    <div class="multiple-choice">
+      <input type="radio" id="example-1-1" name="example-1" value="1">
+      <label for="example-1-1" class="form-label">
+        Strongly disagree
+      </label>
+    </div>
+    <div class="multiple-choice">
+      <input type="radio" id="example-1-2" name="example-1" value="2">
+      <label for="example-1-2" class="form-label">
+        Disagree
+      </label>
+    </div>
+    <div class="multiple-choice">
+      <input type="radio" id="example-1-3" name="example-1" value="3">
+      <label for="example-1-3" class="form-label">
+        Neither agree nor disagree
+      </label>
+    </div>
+    <div class="multiple-choice">
+      <input type="radio" id="example-1-4" name="example-1" value="4">
+      <label for="example-1-4" class="form-label">
+        Agree
+      </label>
+    </div>
+    <div class="multiple-choice">
+      <input type="radio" id="example-1-5" name="example-1" value="5">
+      <label for="example-1-5" class="form-label">
+        Strongly agree
+      </label>
+    </div>
+  </fieldset>
 </div>
 ```
 
@@ -98,83 +98,83 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukRadios({
-	"idPrefix": "example-2",
-	"name": "example-2",
-	"fieldset": {
-		"legend": {
-			"text": "To what extent do you agree?",
-			"classes": "form-label-bold"
-		}
-	},
-	"hint": {
-		"text": "Select the option that is most relevant to you."
-	},
-	"items": [
-		{
-			"value": "1",
-			"text": "Strongly disagree"
-		},
-		{
-			"value": "2",
-			"text": "Disagree"
-		},
-		{
-			"value": "3",
-			"text": "Neither agree nor disagree"
-		},
-		{
-			"value": "4",
-			"text": "Agree"
-		},
-		{
-			"value": "5",
-			"text": "Strongly agree"
-		}
-	]
+  "idPrefix": "example-2",
+  "name": "example-2",
+  "fieldset": {
+    "legend": {
+      "text": "To what extent do you agree?",
+      "classes": "form-label-bold"
+    }
+  },
+  "hint": {
+    "text": "Select the option that is most relevant to you."
+  },
+  "items": [
+    {
+      "value": "1",
+      "text": "Strongly disagree"
+    },
+    {
+      "value": "2",
+      "text": "Disagree"
+    },
+    {
+      "value": "3",
+      "text": "Neither agree nor disagree"
+    },
+    {
+      "value": "4",
+      "text": "Agree"
+    },
+    {
+      "value": "5",
+      "text": "Strongly agree"
+    }
+  ]
 }) }}
 ```
 
 #### Markup
 ```
 <div class="form-group">
-	<fieldset>
-		<legend class="form-label-bold">
-			To what extent do you agree?
-			<span for="example-2-hint" class="form-hint">
-				Select the option that is most relevant to you.
-			</span>
-		</legend>
-		<div class="multiple-choice">
-			<input type="radio" id="example-2-1" name="example-2" value="1">
-			<label for="example-2-1" class="form-label">
-				Strongly disagree
-			</label>
-		</div>
-		<div class="multiple-choice">
-			<input type="radio" id="example-2-2" name="example-2" value="2">
-			<label for="example-2-2" class="form-label">
-				Disagree
-			</label>
-		</div>
-		<div class="multiple-choice">
-			<input type="radio" id="example-2-3" name="example-2" value="3">
-			<label for="example-2-3" class="form-label">
-				Neither agree nor disagree
-			</label>
-		</div>
-		<div class="multiple-choice">
-			<input type="radio" id="example-2-4" name="example-2" value="4">
-			<label for="example-2-4" class="form-label">
-				Agree
-			</label>
-		</div>
-		<div class="multiple-choice">
-			<input type="radio" id="example-2-5" name="example-2" value="5">
-			<label for="example-2-5" class="form-label">
-				Strongly agree
-			</label>
-		</div>
-	</fieldset>
+  <fieldset>
+    <legend class="form-label-bold">
+      To what extent do you agree?
+      <span for="example-2-hint" class="form-hint">
+        Select the option that is most relevant to you.
+      </span>
+    </legend>
+    <div class="multiple-choice">
+      <input type="radio" id="example-2-1" name="example-2" value="1">
+      <label for="example-2-1" class="form-label">
+        Strongly disagree
+      </label>
+    </div>
+    <div class="multiple-choice">
+      <input type="radio" id="example-2-2" name="example-2" value="2">
+      <label for="example-2-2" class="form-label">
+        Disagree
+      </label>
+    </div>
+    <div class="multiple-choice">
+      <input type="radio" id="example-2-3" name="example-2" value="3">
+      <label for="example-2-3" class="form-label">
+        Neither agree nor disagree
+      </label>
+    </div>
+    <div class="multiple-choice">
+      <input type="radio" id="example-2-4" name="example-2" value="4">
+      <label for="example-2-4" class="form-label">
+        Agree
+      </label>
+    </div>
+    <div class="multiple-choice">
+      <input type="radio" id="example-2-5" name="example-2" value="5">
+      <label for="example-2-5" class="form-label">
+        Strongly agree
+      </label>
+    </div>
+  </fieldset>
 </div>
 ```
 
@@ -185,89 +185,89 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukRadios({
-	"idPrefix": "example-3",
-	"name": "example-3",
-	"fieldset": {
-		"legend": {
-			"text": "To what extent do you agree?",
-			"classes": "form-label-bold"
-		}
-	},
-	"hint": {
-		"text": "Select the option that is most relevant to you"
-	},
-	"errorMessage": {
-		"text": "Choose an answer"
-	},
-	"items": [
-		{
-			"value": "1",
-			"text": "Strongly disagree"
-		},
-		{
-			"value": "2",
-			"text": "Disagree"
-		},
-		{
-			"value": "3",
-			"text": "Neither agree nor disagree"
-		},
-		{
-			"value": "4",
-			"text": "Agree"
-		},
-		{
-			"value": "5",
-			"text": "Strongly agree"
-		}
-	]
+  "idPrefix": "example-3",
+  "name": "example-3",
+  "fieldset": {
+    "legend": {
+      "text": "To what extent do you agree?",
+      "classes": "form-label-bold"
+    }
+  },
+  "hint": {
+    "text": "Select the option that is most relevant to you"
+  },
+  "errorMessage": {
+    "text": "Choose an answer"
+  },
+  "items": [
+    {
+      "value": "1",
+      "text": "Strongly disagree"
+    },
+    {
+      "value": "2",
+      "text": "Disagree"
+    },
+    {
+      "value": "3",
+      "text": "Neither agree nor disagree"
+    },
+    {
+      "value": "4",
+      "text": "Agree"
+    },
+    {
+      "value": "5",
+      "text": "Strongly agree"
+    }
+  ]
 }) }}
 ```
 
 #### Markup
 ```
 <div class="form-group form-group-error">
-	<fieldset>
-		<legend class="form-label-bold">
-			To what extent do you agree?
-			<span for="example-3-hint" class="form-hint">
-				Select the option that is most relevant to you
-			</span>
-			<span id="example-3-error" class="error-message">
-				Choose an answer
-			</span>
-		</legend>
-		<div class="multiple-choice">
-			<input type="radio" id="example-3-1" name="example-3" value="1">
-			<label for="example-3-1" class="form-label">
-				Strongly disagree
-			</label>
-		</div>
-		<div class="multiple-choice">
-			<input type="radio" id="example-3-2" name="example-3" value="2">
-			<label for="example-3-2" class="form-label">
-				Disagree
-			</label>
-		</div>
-		<div class="multiple-choice">
-			<input type="radio" id="example-3-3" name="example-3" value="3">
-			<label for="example-3-3" class="form-label">
-				Neither agree nor disagree
-			</label>
-		</div>
-		<div class="multiple-choice">
-			<input type="radio" id="example-3-4" name="example-3" value="4">
-			<label for="example-3-4" class="form-label">
-				Agree
-			</label>
-		</div>
-		<div class="multiple-choice">
-			<input type="radio" id="example-3-5" name="example-3" value="5">
-			<label for="example-3-5" class="form-label">
-				Strongly agree
-			</label>
-		</div>
-	</fieldset>
+  <fieldset>
+    <legend class="form-label-bold">
+      To what extent do you agree?
+      <span for="example-3-hint" class="form-hint">
+        Select the option that is most relevant to you
+      </span>
+      <span id="example-3-error" class="error-message">
+        Choose an answer
+      </span>
+    </legend>
+    <div class="multiple-choice">
+      <input type="radio" id="example-3-1" name="example-3" value="1">
+      <label for="example-3-1" class="form-label">
+        Strongly disagree
+      </label>
+    </div>
+    <div class="multiple-choice">
+      <input type="radio" id="example-3-2" name="example-3" value="2">
+      <label for="example-3-2" class="form-label">
+        Disagree
+      </label>
+    </div>
+    <div class="multiple-choice">
+      <input type="radio" id="example-3-3" name="example-3" value="3">
+      <label for="example-3-3" class="form-label">
+        Neither agree nor disagree
+      </label>
+    </div>
+    <div class="multiple-choice">
+      <input type="radio" id="example-3-4" name="example-3" value="4">
+      <label for="example-3-4" class="form-label">
+        Agree
+      </label>
+    </div>
+    <div class="multiple-choice">
+      <input type="radio" id="example-3-5" name="example-3" value="5">
+      <label for="example-3-5" class="form-label">
+        Strongly agree
+      </label>
+    </div>
+  </fieldset>
 </div>
 ```
 
@@ -278,88 +278,88 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukRadios({
-	"idPrefix": "example-4",
-	"name": "example-4",
-	"fieldset": {
-		"legend": {
-			"text": "To what extent do you agree?",
-			"classes": "form-label-bold"
-		}
-	},
-	"hint": {
-		"text": "Select the option that is most relevant to you."
-	},
-	"items": [
-		{
-			"value": "1",
-			"text": "Strongly disagree",
-			"disabled": true
-		},
-		{
-			"value": "2",
-			"text": "Disagree",
-			"disabled": true
-		},
-		{
-			"value": "3",
-			"text": "Neither agree nor disagree",
-			"disabled": true
-		},
-		{
-			"value": "4",
-			"text": "Agree",
-			"disabled": true
-		},
-		{
-			"value": "5",
-			"text": "Strongly agree",
-			"disabled": true
-		}
-	]
+  "idPrefix": "example-4",
+  "name": "example-4",
+  "fieldset": {
+    "legend": {
+      "text": "To what extent do you agree?",
+      "classes": "form-label-bold"
+    }
+  },
+  "hint": {
+    "text": "Select the option that is most relevant to you."
+  },
+  "items": [
+    {
+      "value": "1",
+      "text": "Strongly disagree",
+      "disabled": true
+    },
+    {
+      "value": "2",
+      "text": "Disagree",
+      "disabled": true
+    },
+    {
+      "value": "3",
+      "text": "Neither agree nor disagree",
+      "disabled": true
+    },
+    {
+      "value": "4",
+      "text": "Agree",
+      "disabled": true
+    },
+    {
+      "value": "5",
+      "text": "Strongly agree",
+      "disabled": true
+    }
+  ]
 }) }}
 ```
 
 #### Markup
 ```
 <div class="form-group">
-	<fieldset>
-		<legend class="form-label-bold">
-			To what extent do you agree?
-			<span for="example-4-hint" class="form-hint">
-				Select the option that is most relevant to you.
-			</span>
-		</legend>
-		<div class="multiple-choice">
-			<input type="radio" id="example-4-1" name="example-4" value="1" disabled>
-			<label for="example-4-1" class="form-label">
-				Strongly disagree
-			</label>
-		</div>
-		<div class="multiple-choice">
-			<input type="radio" id="example-4-2" name="example-4" value="2" disabled>
-			<label for="example-4-2" class="form-label">
-				Disagree
-			</label>
-		</div>
-		<div class="multiple-choice">
-			<input type="radio" id="example-4-3" name="example-4" value="3" disabled>
-			<label for="example-4-3" class="form-label">
-				Neither agree nor disagree
-			</label>
-		</div>
-		<div class="multiple-choice">
-			<input type="radio" id="example-4-4" name="example-4" value="4" disabled>
-			<label for="example-4-4" class="form-label">
-				Agree
-			</label>
-		</div>
-		<div class="multiple-choice">
-			<input type="radio" id="example-4-5" name="example-4" value="5" disabled>
-			<label for="example-4-5" class="form-label">
-				Strongly agree
-			</label>
-		</div>
-	</fieldset>
+  <fieldset>
+    <legend class="form-label-bold">
+      To what extent do you agree?
+      <span for="example-4-hint" class="form-hint">
+        Select the option that is most relevant to you.
+      </span>
+    </legend>
+    <div class="multiple-choice">
+      <input type="radio" id="example-4-1" name="example-4" value="1" disabled>
+      <label for="example-4-1" class="form-label">
+        Strongly disagree
+      </label>
+    </div>
+    <div class="multiple-choice">
+      <input type="radio" id="example-4-2" name="example-4" value="2" disabled>
+      <label for="example-4-2" class="form-label">
+        Disagree
+      </label>
+    </div>
+    <div class="multiple-choice">
+      <input type="radio" id="example-4-3" name="example-4" value="3" disabled>
+      <label for="example-4-3" class="form-label">
+        Neither agree nor disagree
+      </label>
+    </div>
+    <div class="multiple-choice">
+      <input type="radio" id="example-4-4" name="example-4" value="4" disabled>
+      <label for="example-4-4" class="form-label">
+        Agree
+      </label>
+    </div>
+    <div class="multiple-choice">
+      <input type="radio" id="example-4-5" name="example-4" value="5" disabled>
+      <label for="example-4-5" class="form-label">
+        Strongly agree
+      </label>
+    </div>
+  </fieldset>
 </div>
 ```
 
@@ -370,87 +370,87 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukRadios({
-	"idPrefix": "example-5",
-	"name": "example-5",
-	"fieldset": {
-		"legend": {
-			"text": "To what extent do you agree?",
-			"classes": "form-label-bold"
-		}
-	},
-	"hint": {
-		"text": "Select the option that is most relevant to you."
-	},
-	"errorMessage": {
-		"text": "Choose an answer."
-	},
-	"items": [
-		{
-			"value": "1",
-			"text": "Strongly disagree"
-		},
-		{
-			"value": "2",
-			"text": "Disagree"
-		},
-		{
-			"value": "3",
-			"text": "Neither agree nor disagree",
-			"checked": true
-		},
-		{
-			"value": "4",
-			"text": "Agree",
-		},
-		{
-			"value": "5",
-			"text": "Strongly agree"
-		}
-	]
+  "idPrefix": "example-5",
+  "name": "example-5",
+  "fieldset": {
+    "legend": {
+      "text": "To what extent do you agree?",
+      "classes": "form-label-bold"
+    }
+  },
+  "hint": {
+    "text": "Select the option that is most relevant to you."
+  },
+  "errorMessage": {
+    "text": "Choose an answer."
+  },
+  "items": [
+    {
+      "value": "1",
+      "text": "Strongly disagree"
+    },
+    {
+      "value": "2",
+      "text": "Disagree"
+    },
+    {
+      "value": "3",
+      "text": "Neither agree nor disagree",
+      "checked": true
+    },
+    {
+      "value": "4",
+      "text": "Agree",
+    },
+    {
+      "value": "5",
+      "text": "Strongly agree"
+    }
+  ]
 }) }}
 ```
 
 #### Markup
 ```
 <div class="form-group">
-	<fieldset>
-		<legend class="form-label-bold">
-			To what extent do you agree?
-			<span for="example-5-hint" class="form-hint">
-				Select the option that is most relevant to you.
-			</span>
-		</legend>
-		<div class="multiple-choice">
-			<input type="radio" id="example-5-1" name="example-5" value="1">
-			<label for="example-5-1" class="form-label">
-				Strongly disagree
-			</label>
-		</div>
-		<div class="multiple-choice">
-			<input type="radio" id="example-5-2" name="example-5" value="2">
-			<label for="example-5-2" class="form-label">
-				Disagree
-			</label>
-		</div>
-		<div class="multiple-choice">
-			<input type="radio" id="example-5-3" name="example-5" value="3" checked>
-			<label for="example-5-3" class="form-label">
-				Neither agree nor disagree
-			</label>
-		</div>
-		<div class="multiple-choice">
-			<input type="radio" id="example-5-4" name="example-5" value="4">
-			<label for="example-5-4" class="form-label">
-				Agree
-			</label>
-		</div>
-		<div class="multiple-choice">
-			<input type="radio" id="example-5-5" name="example-5" value="5">
-			<label for="example-5-5" class="form-label">
-				Strongly agree
-			</label>
-		</div>
-	</fieldset>
+  <fieldset>
+    <legend class="form-label-bold">
+      To what extent do you agree?
+      <span for="example-5-hint" class="form-hint">
+        Select the option that is most relevant to you.
+      </span>
+    </legend>
+    <div class="multiple-choice">
+      <input type="radio" id="example-5-1" name="example-5" value="1">
+      <label for="example-5-1" class="form-label">
+        Strongly disagree
+      </label>
+    </div>
+    <div class="multiple-choice">
+      <input type="radio" id="example-5-2" name="example-5" value="2">
+      <label for="example-5-2" class="form-label">
+        Disagree
+      </label>
+    </div>
+    <div class="multiple-choice">
+      <input type="radio" id="example-5-3" name="example-5" value="3" checked>
+      <label for="example-5-3" class="form-label">
+        Neither agree nor disagree
+      </label>
+    </div>
+    <div class="multiple-choice">
+      <input type="radio" id="example-5-4" name="example-5" value="4">
+      <label for="example-5-4" class="form-label">
+        Agree
+      </label>
+    </div>
+    <div class="multiple-choice">
+      <input type="radio" id="example-5-5" name="example-5" value="5">
+      <label for="example-5-5" class="form-label">
+        Strongly agree
+      </label>
+    </div>
+  </fieldset>
 </div>
 ```
 
@@ -461,84 +461,84 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukRadios({
-	"idPrefix": "example-6",
-	"name": "example-6",
-	"fieldset": {
-		"legend": {
-			"text": "How do you want to be contacted?",
-			"classes": "form-label-bold"
-		}
-	},
-	"hint": {
-		"text": "Select the option most relevant to you."
-	},
-	"items": [
-		{
-			"value": "email",
-			"text": "Email",
-			"conditional": {
-				"html": email_panel_html
-			}
-		},
-		{
-			"value": "phone",
-			"text": "Phone",
-			"conditional": {
-				"html": phone_panel_html
-			}
-		},
-		{
-			"value": "text",
-			"text": "Text message",
-			"conditional": {
-				"html": message_panel_html
-			}
-		}
-	]
+  "idPrefix": "example-6",
+  "name": "example-6",
+  "fieldset": {
+    "legend": {
+      "text": "How do you want to be contacted?",
+      "classes": "form-label-bold"
+    }
+  },
+  "hint": {
+    "text": "Select the option most relevant to you."
+  },
+  "items": [
+    {
+      "value": "email",
+      "text": "Email",
+      "conditional": {
+        "html": email_panel_html
+      }
+    },
+    {
+      "value": "phone",
+      "text": "Phone",
+      "conditional": {
+        "html": phone_panel_html
+      }
+    },
+    {
+      "value": "text",
+      "text": "Text message",
+      "conditional": {
+        "html": message_panel_html
+      }
+    }
+  ]
 }) }}
 ```
 
 #### Markup
 ```
 <div class="form-group">
-	<fieldset>
-		<legend class="form-label-bold">
-			How do you want to be contacted?
-			<span for="example-6-hint" class="form-hint">
-				Select the option most relevant to you.
-			</span>
-		</legend>
-		<div class="multiple-choice" data-target="example-6-1-panel">
-			<input type="radio" id="example-6-1" name="example-6" value="email" aria-controls="example-6-1-panel" aria-expanded="false">
-			<label for="example-6-1" class="form-label">
-				Email
-			</label>
-		</div>
-		<div class="panel panel-border-narrow js-hidden" id="example-6-1-panel" aria-hidden="true">
-			<label class="form-label" for="contact-email">Email address</label>
-			<input class="form-control" name="contact-email" type="text" id="contact-email">
-		</div>
-		<div class="multiple-choice" data-target="example-6-2-panel">
-			<input type="radio" id="example-6-2" name="example-6" value="phone" aria-controls="example-6-2-panel" aria-expanded="false">
-			<label for="example-6-2" class="form-label">
-				Phone
-			</label>
-		</div>
-		<div class="panel panel-border-narrow js-hidden" id="example-6-2-panel" aria-hidden="true">
-			<label class="form-label" for="contact-phone">Phone number</label>
-			<input class="form-control" name="contact-phone" type="text" id="contact-phone">
-		</div>
-		<div class="multiple-choice" data-target="example-6-3-panel">
-			<input type="radio" id="example-6-3" name="example-6" value="text" aria-controls="example-6-3-panel" aria-expanded="false">
-			<label for="example-6-3" class="form-label">
-				Text message
-			</label>
-		</div>
-		<div class="panel panel-border-narrow js-hidden" id="example-6-3-panel" aria-hidden="true">
-			<label class="form-label" for="contact-mobile">Mobile phone number</label>
-			<input class="form-control" name="contact-mobile" type="text" id="contact-mobile">
-		</div>
-	</fieldset>
+  <fieldset>
+    <legend class="form-label-bold">
+      How do you want to be contacted?
+      <span for="example-6-hint" class="form-hint">
+        Select the option most relevant to you.
+      </span>
+    </legend>
+    <div class="multiple-choice" data-target="example-6-1-panel">
+      <input type="radio" id="example-6-1" name="example-6" value="email" aria-controls="example-6-1-panel" aria-expanded="false">
+      <label for="example-6-1" class="form-label">
+        Email
+      </label>
+    </div>
+    <div class="panel panel-border-narrow js-hidden" id="example-6-1-panel" aria-hidden="true">
+      <label class="form-label" for="contact-email">Email address</label>
+      <input class="form-control" name="contact-email" type="text" id="contact-email">
+    </div>
+    <div class="multiple-choice" data-target="example-6-2-panel">
+      <input type="radio" id="example-6-2" name="example-6" value="phone" aria-controls="example-6-2-panel" aria-expanded="false">
+      <label for="example-6-2" class="form-label">
+        Phone
+      </label>
+    </div>
+    <div class="panel panel-border-narrow js-hidden" id="example-6-2-panel" aria-hidden="true">
+      <label class="form-label" for="contact-phone">Phone number</label>
+      <input class="form-control" name="contact-phone" type="text" id="contact-phone">
+    </div>
+    <div class="multiple-choice" data-target="example-6-3-panel">
+      <input type="radio" id="example-6-3" name="example-6" value="text" aria-controls="example-6-3-panel" aria-expanded="false">
+      <label for="example-6-3" class="form-label">
+        Text message
+      </label>
+    </div>
+    <div class="panel panel-border-narrow js-hidden" id="example-6-3-panel" aria-hidden="true">
+      <label class="form-label" for="contact-mobile">Mobile phone number</label>
+      <input class="form-control" name="contact-mobile" type="text" id="contact-mobile">
+    </div>
+  </fieldset>
 </div>
 ```
 

@@ -19,38 +19,38 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukErrorSummary({
-	"titleText": "Message to alert the user to a problem goes here",
-	"descriptionText": "Optional description of the errors and how to correct them",
-	"errorList": [
-		{
-			"text": "Descriptive link to the question with an error",
-			"href": "#question-1"
-		},
-		{
-			"text": "Descriptive link to the question with an error",
-			"href": "#question-2"
-		}
-	]
+  "titleText": "Message to alert the user to a problem goes here",
+  "descriptionText": "Optional description of the errors and how to correct them",
+  "errorList": [
+    {
+      "text": "Descriptive link to the question with an error",
+      "href": "#question-1"
+    },
+    {
+      "text": "Descriptive link to the question with an error",
+      "href": "#question-2"
+    }
+  ]
 }) }}
 ```
 
 #### Markup
 ```
 <div class="error-summary" aria-labelledby="error-summary-title" role="alert" tabindex="-1" data-module="error-summary">
-	<h2 class="heading-medium error-summary-heading" id="error-summary-title">
-		Message to alert the user to a problem goes here
-	</h2>
-	<p>
-		Optional description of the errors and how to correct them
-	</p>
-	<ul class="error-summary-list">
-		<li>
-			<a href="#question-1">Descriptive link to the question with an error</a>
-		</li>
-		<li>
-			<a href="#question-2">Descriptive link to the question with an error</a>
-		</li>
-	</ul>
+  <h2 class="heading-medium error-summary-heading" id="error-summary-title">
+    Message to alert the user to a problem goes here
+  </h2>
+  <p>
+    Optional description of the errors and how to correct them
+  </p>
+  <ul class="error-summary-list">
+    <li>
+      <a href="#question-1">Descriptive link to the question with an error</a>
+    </li>
+    <li>
+      <a href="#question-2">Descriptive link to the question with an error</a>
+    </li>
+  </ul>
 </div>
 ```
 

@@ -17,21 +17,21 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukInput({
-	"id": "example-1",
-	"name": "national-insurance-number",
-	"label": {
-		"text": "National Insurance number"
-	}
+  "id": "example-1",
+  "name": "national-insurance-number",
+  "label": {
+    "text": "National Insurance number"
+  }
 }) }}
 ```
 
 #### Markup
 ```
 <div class="form-group">
-	<label for="example-1" class="form-label">
-		National Insurance number
-	</label>
-	<input id="example-1" class="form-control" name="national-insurance-number" type="text">
+  <label for="example-1" class="form-label">
+    National Insurance number
+  </label>
+  <input id="example-1" class="form-control" name="national-insurance-number" type="text">
 </div>
 ```
 
@@ -42,28 +42,28 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukInput({
-	"id": "example-2",
-	"name": "national-insurance-number",
-	"label": {
-		"text": "National Insurance number",
-		"classes": "form-label-bold"
-	},
-	"hint": {
-		"text": "It’s on your National Insurance card, benefit letter, payslip or P60\. For example, ‘QQ 12 34 56 C’."
-	}
+  "id": "example-2",
+  "name": "national-insurance-number",
+  "label": {
+    "text": "National Insurance number",
+    "classes": "form-label-bold"
+  },
+  "hint": {
+    "text": "It’s on your National Insurance card, benefit letter, payslip or P60\. For example, ‘QQ 12 34 56 C’."
+  }
 }) }}
 ```
 
 #### Markup
 ```
 <div class="form-group">
-	<label for="example-2" class="form-label-bold">
-		National Insurance number
-		<span for="example-2-hint" class="form-hint">
-			It’s on your National Insurance card, benefit letter, payslip or P60. For example, ‘QQ 12 34 56 C’.
-		</span>
-	</label>
-	<input id="example-2" class="form-control" name="national-insurance-number" type="text">
+  <label for="example-2" class="form-label-bold">
+    National Insurance number
+    <span for="example-2-hint" class="form-hint">
+      It’s on your National Insurance card, benefit letter, payslip or P60. For example, ‘QQ 12 34 56 C’.
+    </span>
+  </label>
+  <input id="example-2" class="form-control" name="national-insurance-number" type="text">
 </div>
 ```
 
@@ -74,34 +74,34 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukInput({
-	"id": "example-3",
-	"name": "national-insurance-number",
-	"label": {
-		"text": "National Insurance number",
-		"classes": "form-label-bold"
-	},
-	"hint": {
-		"text": "It’s on your National Insurance card, benefit letter, payslip or P60\. For example, ‘QQ 12 34 56 C’."
-	},
-	"errorMessage": {
-		"text": "Error message goes here"
-	}
+  "id": "example-3",
+  "name": "national-insurance-number",
+  "label": {
+    "text": "National Insurance number",
+    "classes": "form-label-bold"
+  },
+  "hint": {
+    "text": "It’s on your National Insurance card, benefit letter, payslip or P60\. For example, ‘QQ 12 34 56 C’."
+  },
+  "errorMessage": {
+    "text": "Error message goes here"
+  }
 }) }}
 ```
 
 #### Markup
 ```
 <div class="form-group form-group-error">
-	<label for="example-3" class="form-label-bold">
-		National Insurance number
-		<span for="example-3-hint" class="form-hint">
-			It’s on your National Insurance card, benefit letter, payslip or P60. For example, ‘QQ 12 34 56 C’.
-		</span>
-	</label>
-	<span id="example-3-error" class="error-message">
-	  You must provide a National Insurance number
-	</span>
-	<input id="example-3" class="form-control form-control-error" name="national-insurance-number" type="text">
+  <label for="example-3" class="form-label-bold">
+    National Insurance number
+    <span for="example-3-hint" class="form-hint">
+      It’s on your National Insurance card, benefit letter, payslip or P60. For example, ‘QQ 12 34 56 C’.
+    </span>
+  </label>
+  <span id="example-3-error" class="error-message">
+    You must provide a National Insurance number
+  </span>
+  <input id="example-3" class="form-control form-control-error" name="national-insurance-number" type="text">
 </div>
 ```
 
@@ -112,29 +112,29 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukInput({
-	"id": "example-4",
-	"name": "national-insurance-number",
-	"classes": "form-control-1-2",
-	"label": {
-		"text": "National Insurance number",
-		"classes": "form-label-bold"
-	},
-	"hint": {
-		"text": "It’s on your National Insurance card, benefit letter, payslip or P60\. For example, ‘QQ 12 34 56 C’."
-	}
+  "id": "example-4",
+  "name": "national-insurance-number",
+  "classes": "form-control-1-2",
+  "label": {
+    "text": "National Insurance number",
+    "classes": "form-label-bold"
+  },
+  "hint": {
+    "text": "It’s on your National Insurance card, benefit letter, payslip or P60\. For example, ‘QQ 12 34 56 C’."
+  }
 }) }}
 ```
 
 #### Markup
 ```
 <div class="form-group">
-	<label for="example-4" class="form-label-bold">
-		National Insurance number
-		<span for="example-4-hint" class="form-hint">
-			It’s on your National Insurance card, benefit letter, payslip or P60. For example, ‘QQ 12 34 56 C’.
-		</span>
-	</label>
-	<input id="example-4" class="form-control form-control-1-2" name="national-insurance-number" type="text">
+  <label for="example-4" class="form-label-bold">
+    National Insurance number
+    <span for="example-4-hint" class="form-hint">
+      It’s on your National Insurance card, benefit letter, payslip or P60. For example, ‘QQ 12 34 56 C’.
+    </span>
+  </label>
+  <input id="example-4" class="form-control form-control-1-2" name="national-insurance-number" type="text">
 </div>
 ```
 
@@ -145,31 +145,31 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukInput({
-	"id": "example-5",
-	"name": "national-insurance-number",
-	"label": {
-		"text": "What is your National Insurance number?",
-		"classes": "heading-xlarge",
-		"isPageHeading": true
-	},
-	"hint": {
-		"text": "It’s on your National Insurance card, benefit letter, payslip or P60\. For example, ‘QQ 12 34 56 C’."
-	}
+  "id": "example-5",
+  "name": "national-insurance-number",
+  "label": {
+    "text": "What is your National Insurance number?",
+    "classes": "heading-xlarge",
+    "isPageHeading": true
+  },
+  "hint": {
+    "text": "It’s on your National Insurance card, benefit letter, payslip or P60\. For example, ‘QQ 12 34 56 C’."
+  }
 }) }}
 ```
 
 #### Markup
 ```
 <div class="form-group">
-	<h1>
-		<label for="example-5" class="heading-xlarge">
-			What is your National Insurance number?
-			<span for="example-5-hint" class="form-hint">
-				It’s on your National Insurance card, benefit letter, payslip or P60. For example, ‘QQ 12 34 56 C’.
-			</span>
-		</label>
-	</h1>
-	<input id="example-5" class="form-control" name="national-insurance-number" type="text">
+  <h1>
+    <label for="example-5" class="heading-xlarge">
+      What is your National Insurance number?
+      <span for="example-5-hint" class="form-hint">
+        It’s on your National Insurance card, benefit letter, payslip or P60. For example, ‘QQ 12 34 56 C’.
+      </span>
+    </label>
+  </h1>
+  <input id="example-5" class="form-control" name="national-insurance-number" type="text">
 </div>
 ```
 

@@ -17,22 +17,22 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukTextarea({
-	"id": "additional-information",
-	"name": "additional-information",
-	"label": {
-		"text": "Please provide more information",
-		"classes": "form-label-bold"
-	}
+  "id": "additional-information",
+  "name": "additional-information",
+  "label": {
+    "text": "Please provide more information",
+    "classes": "form-label-bold"
+  }
 }) }}
 ```
 
 #### Markup
 ```
 <div class="form-group">
-	<label for="additional-information-1" class="form-label-bold">
-		Please provide more information
-	</label>
-	<textarea id="additional-information-1" class="form-control" name="additional-information-1" rows="5"></textarea>
+  <label for="additional-information-1" class="form-label-bold">
+    Please provide more information
+  </label>
+  <textarea id="additional-information-1" class="form-control" name="additional-information-1" rows="5"></textarea>
 </div>
 ```
 
@@ -43,28 +43,28 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukTextarea({
-	"id": "additional-information",
-	"name": "additional-information",
-	"label": {
-		"text": "Please provide more information",
-		"classes": "form-label-bold"
-	},
-	"hint": {
-		"text": "Don't include personal or financial information, for example your National Insurance number or credit card details."
-	}
+  "id": "additional-information",
+  "name": "additional-information",
+  "label": {
+    "text": "Please provide more information",
+    "classes": "form-label-bold"
+  },
+  "hint": {
+    "text": "Don't include personal or financial information, for example your National Insurance number or credit card details."
+  }
 }) }}
 ```
 
 #### Markup
 ```
 <div class="form-group">
-	<label for="additional-information-2" class="form-label-bold">
-		Please provide more information
-		<span for="additional-information-2-hint" class="form-hint">
-			Don't include personal or financial information, for example your National Insurance number or credit card details.
-		</span>
-	</label>
-	<textarea id="additional-information-2" class="form-control" name="additional-information-2" rows="5"></textarea>
+  <label for="additional-information-2" class="form-label-bold">
+    Please provide more information
+    <span for="additional-information-2-hint" class="form-hint">
+      Don't include personal or financial information, for example your National Insurance number or credit card details.
+    </span>
+  </label>
+  <textarea id="additional-information-2" class="form-control" name="additional-information-2" rows="5"></textarea>
 </div>
 ```
 
@@ -75,34 +75,34 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukTextarea({
-	"id": "additional-information",
-	"name": "additional-information",
-	"label": {
-		"text": "Please provide more information",
-		"classes": "form-label-bold"
-	},
-	"hint": {
-		"text": "Don't include personal or financial information, for example your National Insurance number or credit card details."
-	},
-	"errorMessage": {
-		"text": "Error message goes here"
-	}
+  "id": "additional-information",
+  "name": "additional-information",
+  "label": {
+    "text": "Please provide more information",
+    "classes": "form-label-bold"
+  },
+  "hint": {
+    "text": "Don't include personal or financial information, for example your National Insurance number or credit card details."
+  },
+  "errorMessage": {
+    "text": "Error message goes here"
+  }
 }) }}
 ```
 
 #### Markup
 ```
 <div class="form-group form-group-error">
-	<label for="additional-information-3" class="form-label-bold">
-		Please provide more information
-		<span for="additional-information-3-hint" class="form-hint">
-			Don't include personal or financial information, for example your National Insurance number or credit card details.
-		</span>
-	</label>
-	<span id="additional-information-3-error" class="error-message">
-	  Error message goes here
-	</span>
-	<textarea id="additional-information-3" class="form-control form-control-error" name="additional-information-3" rows="5"></textarea>
+  <label for="additional-information-3" class="form-label-bold">
+    Please provide more information
+    <span for="additional-information-3-hint" class="form-hint">
+      Don't include personal or financial information, for example your National Insurance number or credit card details.
+    </span>
+  </label>
+  <span id="additional-information-3-error" class="error-message">
+    Error message goes here
+  </span>
+  <textarea id="additional-information-3" class="form-control form-control-error" name="additional-information-3" rows="5"></textarea>
 </div>
 ```
 
@@ -113,29 +113,29 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukTextarea({
-	"id": "additional-information-1",
-	"name": "additional-information-1",
-	"label": {
-		"text": "Please provide more information",
-		"classes": "form-label-bold"
-	},
-	"hint": {
-		"text": "Don't include personal or financial information, for example your National Insurance number or credit card details."
-	},
-	"value": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur a amet iste repellat. Labore explicabo assumenda, architecto non expedita sit, fuga nulla suscipit. Tenetur neque dicta, ea ad aliquam eligendi?"
+  "id": "additional-information-1",
+  "name": "additional-information-1",
+  "label": {
+    "text": "Please provide more information",
+    "classes": "form-label-bold"
+  },
+  "hint": {
+    "text": "Don't include personal or financial information, for example your National Insurance number or credit card details."
+  },
+  "value": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur a amet iste repellat. Labore explicabo assumenda, architecto non expedita sit, fuga nulla suscipit. Tenetur neque dicta, ea ad aliquam eligendi?"
 }) }}
 ```
 
 #### Markup
 ```
 <div class="form-group">
-	<label for="additional-information-4" class="form-label-bold">
-		Please provide more information
-		<span for="additional-information-4-hint" class="form-hint">
-			Don't include personal or financial information, for example your National Insurance number or credit card details.
-		</span>
-	</label>
-	<textarea id="additional-information-4" class="form-control" name="additional-information-4" rows="5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur a amet iste repellat. Labore explicabo assumenda, architecto non expedita sit, fuga nulla suscipit. Tenetur neque dicta, ea ad aliquam eligendi?</textarea>
+  <label for="additional-information-4" class="form-label-bold">
+    Please provide more information
+    <span for="additional-information-4-hint" class="form-hint">
+      Don't include personal or financial information, for example your National Insurance number or credit card details.
+    </span>
+  </label>
+  <textarea id="additional-information-4" class="form-control" name="additional-information-4" rows="5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur a amet iste repellat. Labore explicabo assumenda, architecto non expedita sit, fuga nulla suscipit. Tenetur neque dicta, ea ad aliquam eligendi?</textarea>
 </div>
 ```
 
@@ -146,31 +146,31 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukTextarea({
-	"id": "additional-information",
-	"name": "additional-information",
-	"label": {
-		"text": "Please provide more information",
-		"classes": "heading-xlarge",
-		"isPageHeading": true
-	},
-	"hint": {
-		"text": "Don't include personal or financial information, for example your National Insurance number or credit card details."
-	}
+  "id": "additional-information",
+  "name": "additional-information",
+  "label": {
+    "text": "Please provide more information",
+    "classes": "heading-xlarge",
+    "isPageHeading": true
+  },
+  "hint": {
+    "text": "Don't include personal or financial information, for example your National Insurance number or credit card details."
+  }
 }) }}
 ```
 
 #### Markup
 ```
 <div class="form-group">
-	<h1>
-		<label for="additional-information-5" class="heading-xlarge">
-			Please provide more information
-			<span for="additional-information-5-hint" class="form-hint">
-				Don't include personal or financial information, for example your National Insurance number or credit card details.
-			</span>
-		</label>
-	</h1>
-	<textarea id="additional-information-5" class="form-control" name="additional-information-5" rows="5"></textarea>
+  <h1>
+    <label for="additional-information-5" class="heading-xlarge">
+      Please provide more information
+      <span for="additional-information-5-hint" class="form-hint">
+        Don't include personal or financial information, for example your National Insurance number or credit card details.
+      </span>
+    </label>
+  </h1>
+  <textarea id="additional-information-5" class="form-control" name="additional-information-5" rows="5"></textarea>
 </div>
 ```
 

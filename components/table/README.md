@@ -17,70 +17,70 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukTable({
-	"rows": [
-		[
-			{
-				"text": "January"
-			},
-			{
-				"text": "£85",
-				"format": "numeric"
-			},
-			{
-				"text": "£95",
-				"format": "numeric"
-			}
-		],
-		[
-			{
-				"text": "February"
-			},
-			{
-				"text": "£75",
-				"format": "numeric"
-			},
-			{
-				"text": "£55",
-				"format": "numeric"
-			}
-			],
-			[
-			{
-				"text": "March"
-			},
-			{
-				"text": "£165",
-				"format": "numeric"
-			},
-			{
-				"text": "£125",
-				"format": "numeric"
-			}
-		]
-	]
+  "rows": [
+    [
+      {
+        "text": "January"
+      },
+      {
+        "text": "£85",
+        "format": "numeric"
+      },
+      {
+        "text": "£95",
+        "format": "numeric"
+      }
+    ],
+    [
+      {
+        "text": "February"
+      },
+      {
+        "text": "£75",
+        "format": "numeric"
+      },
+      {
+        "text": "£55",
+        "format": "numeric"
+      }
+      ],
+      [
+      {
+        "text": "March"
+      },
+      {
+        "text": "£165",
+        "format": "numeric"
+      },
+      {
+        "text": "£125",
+        "format": "numeric"
+      }
+    ]
+  ]
 }) }}
 ```
 
 #### Markup
 ```
 <table>
-	<tbody>
-		<tr>
-			<td>January</td>
-			<td class="numeric">£85</td>
-			<td class="numeric">£95</td>
-		</tr>
-		<tr>
-			<td>February</td>
-			<td class="numeric">£75</td>
-			<td class="numeric">£55</td>
-		</tr>
-		<tr>
-			<td>March</td>
-			<td class="numeric">£165</td>
-			<td class="numeric">£125</td>
-		</tr>
-	</tbody>
+  <tbody>
+    <tr>
+      <td>January</td>
+      <td class="numeric">£85</td>
+      <td class="numeric">£95</td>
+    </tr>
+    <tr>
+      <td>February</td>
+      <td class="numeric">£75</td>
+      <td class="numeric">£55</td>
+    </tr>
+    <tr>
+      <td>March</td>
+      <td class="numeric">£165</td>
+      <td class="numeric">£125</td>
+    </tr>
+  </tbody>
 </table>
 ```
 
@@ -91,90 +91,90 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukTable({
-	"head": [
-		{
-			"text": "Month you apply"
-		},
-		{
-			"text": "Rate for bicycles",
-			"format": "numeric"
-		},
-		{
-			"text": "Rate for vehicles",
-			"format": "numeric"
-		}
-	],
-	"rows": [
-		[
-			{
-				"text": "January"
-			},
-			{
-				"text": "£85",
-				"format": "numeric"
-			},
-			{
-				"text": "£95",
-				"format": "numeric"
-			}
-		],
-		[
-			{
-				"text": "February"
-			},
-			{
-				"text": "£75",
-				"format": "numeric"
-			},
-			{
-				"text": "£55",
-				"format": "numeric"
-			}
-			],
-			[
-			{
-				"text": "March"
-			},
-			{
-				"text": "£165",
-				"format": "numeric"
-			},
-			{
-				"text": "£125",
-				"format": "numeric"
-			}
-		]
-	]
+  "head": [
+    {
+      "text": "Month you apply"
+    },
+    {
+      "text": "Rate for bicycles",
+      "format": "numeric"
+    },
+    {
+      "text": "Rate for vehicles",
+      "format": "numeric"
+    }
+  ],
+  "rows": [
+    [
+      {
+        "text": "January"
+      },
+      {
+        "text": "£85",
+        "format": "numeric"
+      },
+      {
+        "text": "£95",
+        "format": "numeric"
+      }
+    ],
+    [
+      {
+        "text": "February"
+      },
+      {
+        "text": "£75",
+        "format": "numeric"
+      },
+      {
+        "text": "£55",
+        "format": "numeric"
+      }
+      ],
+      [
+      {
+        "text": "March"
+      },
+      {
+        "text": "£165",
+        "format": "numeric"
+      },
+      {
+        "text": "£125",
+        "format": "numeric"
+      }
+    ]
+  ]
 }) }}
 ```
 
 #### Markup
 ```
 <table>
-	<thead>
-		<tr>
-			<th scope="col">Month you apply</th>
-			<th class="numeric" scope="col">Rate for bicycles</th>
-			<th class="numeric" scope="col">Rate for vehicles</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<td>January</td>
-			<td class="numeric">£85</td>
-			<td class="numeric">£95</td>
-		</tr>
-		<tr>
-			<td>February</td>
-			<td class="numeric">£75</td>
-			<td class="numeric">£55</td>
-		</tr>
-		<tr>
-			<td>March</td>
-			<td class="numeric">£165</td>
-			<td class="numeric">£125</td>
-		</tr>
-	</tbody>
+  <thead>
+    <tr>
+      <th scope="col">Month you apply</th>
+      <th class="numeric" scope="col">Rate for bicycles</th>
+      <th class="numeric" scope="col">Rate for vehicles</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>January</td>
+      <td class="numeric">£85</td>
+      <td class="numeric">£95</td>
+    </tr>
+    <tr>
+      <td>February</td>
+      <td class="numeric">£75</td>
+      <td class="numeric">£55</td>
+    </tr>
+    <tr>
+      <td>March</td>
+      <td class="numeric">£165</td>
+      <td class="numeric">£125</td>
+    </tr>
+  </tbody>
 </table>
 ```
 
@@ -185,94 +185,94 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukTable({
-	"caption": "Caption 1: Months and rates",
-	"captionClasses": "heading-large",
-	"firstCellIsHeader": true,
-	"head": [
-		{
-			"text": "Month you apply"
-		},
-		{
-			"text": "Rate for bicycles",
-			"format": "numeric"
-		},
-		{
-			"text": "Rate for vehicles",
-			"format": "numeric"
-		}
-	],
-	"rows": [
-		[
-			{
-				"text": "January"
-			},
-			{
-				"text": "£85",
-				"format": "numeric"
-			},
-			{
-				"text": "£95",
-				"format": "numeric"
-			}
-		],
-		[
-			{
-				"text": "February"
-			},
-			{
-				"text": "£75",
-				"format": "numeric"
-			},
-			{
-				"text": "£55",
-				"format": "numeric"
-			}
-			],
-			[
-			{
-				"text": "March"
-			},
-			{
-				"text": "£165",
-				"format": "numeric"
-			},
-			{
-				"text": "£125",
-				"format": "numeric"
-			}
-		]
-	]
+  "caption": "Caption 1: Months and rates",
+  "captionClasses": "heading-large",
+  "firstCellIsHeader": true,
+  "head": [
+    {
+      "text": "Month you apply"
+    },
+    {
+      "text": "Rate for bicycles",
+      "format": "numeric"
+    },
+    {
+      "text": "Rate for vehicles",
+      "format": "numeric"
+    }
+  ],
+  "rows": [
+    [
+      {
+        "text": "January"
+      },
+      {
+        "text": "£85",
+        "format": "numeric"
+      },
+      {
+        "text": "£95",
+        "format": "numeric"
+      }
+    ],
+    [
+      {
+        "text": "February"
+      },
+      {
+        "text": "£75",
+        "format": "numeric"
+      },
+      {
+        "text": "£55",
+        "format": "numeric"
+      }
+      ],
+      [
+      {
+        "text": "March"
+      },
+      {
+        "text": "£165",
+        "format": "numeric"
+      },
+      {
+        "text": "£125",
+        "format": "numeric"
+      }
+    ]
+  ]
 }) }}
 ```
 
 #### Markup
 ```
 <table>
-	<caption class="heading-large">Caption 1: Months and rates</caption>
-	<thead>
-		<tr>
-			<th scope="col">Month you apply</th>
-			<th class="numeric" scope="col">Rate for bicycles</th>
-			<th class="numeric" scope="col">Rate for vehicles</th>
-		</tr>
-	</thead>
-	<tbody>
-		<tr>
-			<th scope="row">January</th>
-			<td class="numeric">£85</td>
-			<td class="numeric">£95</td>
-		</tr>
-		<tr>
-			<th scope="row">February</th>
-			<td class="numeric">£75</td>
-			<td class="numeric">£55</td>
-		</tr>
-		<tr>
-			<th scope="row">March</th>
-			<td class="numeric">£165</td>
-			<td class="numeric">£125</td>
-		</tr>
-	</tbody>
+  <caption class="heading-large">Caption 1: Months and rates</caption>
+  <thead>
+    <tr>
+      <th scope="col">Month you apply</th>
+      <th class="numeric" scope="col">Rate for bicycles</th>
+      <th class="numeric" scope="col">Rate for vehicles</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">January</th>
+      <td class="numeric">£85</td>
+      <td class="numeric">£95</td>
+    </tr>
+    <tr>
+      <th scope="row">February</th>
+      <td class="numeric">£75</td>
+      <td class="numeric">£55</td>
+    </tr>
+    <tr>
+      <th scope="row">March</th>
+      <td class="numeric">£165</td>
+      <td class="numeric">£125</td>
+    </tr>
+  </tbody>
 </table>
 ```
 

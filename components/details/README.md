@@ -17,22 +17,22 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukDetails({
-	"summaryText": "Help with nationality",
-	"text": "We need to know your nationality so we can work out which elections you’re entitled to vote in. If you can’t provide your nationality, you’ll have to send copies of identity documents through the post."
+  "summaryText": "Help with nationality",
+  "text": "We need to know your nationality so we can work out which elections you’re entitled to vote in. If you can’t provide your nationality, you’ll have to send copies of identity documents through the post."
 }) }}
 ```
 
 #### Markup
 ```
 <details role="group">
-	<summary role="button" aria-controls="details-content-0" aria-expanded="false">
-		<span class="summary">
-			Help with nationality
-		</span>
-	</summary>
-	<div class="panel panel-border-narrow" id="details-content-0" aria-hidden="true">
-		We need to know your nationality so we can work out which elections you’re entitled to vote in. If you can’t provide your nationality, you’ll have to send copies of identity documents through the post.
-	</div>
+  <summary role="button" aria-controls="details-content-0" aria-expanded="false">
+    <span class="summary">
+      Help with nationality
+    </span>
+  </summary>
+  <div class="panel panel-border-narrow" id="details-content-0" aria-hidden="true">
+    We need to know your nationality so we can work out which elections you’re entitled to vote in. If you can’t provide your nationality, you’ll have to send copies of identity documents through the post.
+  </div>
 </details>
 ```
 

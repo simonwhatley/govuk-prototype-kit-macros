@@ -24,55 +24,55 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
   }
 }) %}
 
-	{{ govukInput({
-		id: "address-line-1",
-		name: "address-line-1",
-		label: {
-			html: 'Building and street <span class="visually-hidden">line 1 of 2</span>',
-			classes: "form-label-bold"
-		},
-		classes: "form-control-2-3"
-	}) }}
+  {{ govukInput({
+    id: "address-line-1",
+    name: "address-line-1",
+    label: {
+      html: 'Building and street <span class="visually-hidden">line 1 of 2</span>',
+      classes: "form-label-bold"
+    },
+    classes: "form-control-2-3"
+  }) }}
 
-	{{ govukInput({
-		id: "address-line-2",
-		name: "address-line-2",
-		label: {
-			html: '<span class="visually-hidden">Building and street line 2 of 2</span>',
-			classes: "form-label-bold"
-		},
-		classes: "form-control-2-3"
-	}) }}
+  {{ govukInput({
+    id: "address-line-2",
+    name: "address-line-2",
+    label: {
+      html: '<span class="visually-hidden">Building and street line 2 of 2</span>',
+      classes: "form-label-bold"
+    },
+    classes: "form-control-2-3"
+  }) }}
 
-	{{ govukInput({
-		id: "address-town",
-		name: "address-town",
-		label: {
-			text: "Town or city",
-			classes: "form-label-bold"
-		},
-		classes: "form-control-1-2"
-	}) }}
+  {{ govukInput({
+    id: "address-town",
+    name: "address-town",
+    label: {
+      text: "Town or city",
+      classes: "form-label-bold"
+    },
+    classes: "form-control-1-2"
+  }) }}
 
-	{{ govukInput({
-		id: "address-county",
-		name: "address-county",
-		label: {
-			text: "County",
-			classes: "form-label-bold"
-		},
-		classes: "form-control-1-2"
-	}) }}
+  {{ govukInput({
+    id: "address-county",
+    name: "address-county",
+    label: {
+      text: "County",
+      classes: "form-label-bold"
+    },
+    classes: "form-control-1-2"
+  }) }}
 
-	{{ govukInput({
-		id: "address-postcode",
-		name: "address-postcode",
-		label: {
-			text: "Postcode",
-			classes: "form-label-bold"
-		},
-		classes: "form-control-1-4"
-	}) }}
+  {{ govukInput({
+    id: "address-postcode",
+    name: "address-postcode",
+    label: {
+      text: "Postcode",
+      classes: "form-label-bold"
+    },
+    classes: "form-control-1-4"
+  }) }}
 
 {% endcall %}
 ```
@@ -80,39 +80,39 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Markup
 ```
 <fieldset>
-	<legend class="heading-xlarge">
-		What is your address?
-	</legend>
-	<div class="form-group">
-		<label for="address-line-1" class="form-label-bold">
-			Building and street <span class="visually-hidden">line 1 of 2</span>
-		</label>
-		<input id="address-line-1" class="form-control form-control-2-3" name="address-line-1" type="text">
-	</div>
-	<div class="form-group">
-		<label for="address-line-2" class="form-label-bold">
-			<span class="visually-hidden">Building and street line 2 of 2</span>
-		</label>
-		<input id="address-line-2" class="form-control form-control-2-3" name="address-line-2" type="text">
-	</div>
-	<div class="form-group">
-		<label for="address-town" class="form-label-bold">
-			Town or city
-		</label>
-		<input id="address-town" class="form-control form-control-1-2" name="address-town" type="text">
-	</div>
-	<div class="form-group">
-		<label for="address-county" class="form-label-bold">
-			County
-		</label>
-		<input id="address-county" class="form-control form-control-1-2" name="address-county" type="text">
-	</div>
-	<div class="form-group">
-		<label for="address-postcode" class="form-label-bold">
-			Postcode
-		</label>
-		<input id="address-postcode" class="form-control form-control-1-4" name="address-postcode" type="text">
-	</div>
+  <legend class="heading-xlarge">
+    What is your address?
+  </legend>
+  <div class="form-group">
+    <label for="address-line-1" class="form-label-bold">
+      Building and street <span class="visually-hidden">line 1 of 2</span>
+    </label>
+    <input id="address-line-1" class="form-control form-control-2-3" name="address-line-1" type="text">
+  </div>
+  <div class="form-group">
+    <label for="address-line-2" class="form-label-bold">
+      <span class="visually-hidden">Building and street line 2 of 2</span>
+    </label>
+    <input id="address-line-2" class="form-control form-control-2-3" name="address-line-2" type="text">
+  </div>
+  <div class="form-group">
+    <label for="address-town" class="form-label-bold">
+      Town or city
+    </label>
+    <input id="address-town" class="form-control form-control-1-2" name="address-town" type="text">
+  </div>
+  <div class="form-group">
+    <label for="address-county" class="form-label-bold">
+      County
+    </label>
+    <input id="address-county" class="form-control form-control-1-2" name="address-county" type="text">
+  </div>
+  <div class="form-group">
+    <label for="address-postcode" class="form-label-bold">
+      Postcode
+    </label>
+    <input id="address-postcode" class="form-control form-control-1-4" name="address-postcode" type="text">
+  </div>
 </fieldset>
 ```
 

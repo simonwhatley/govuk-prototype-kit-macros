@@ -18,8 +18,8 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 
 ```
 {{ govukButton({
-	"text": "Save and continue",
-	"classes": "button button-primary"
+  "text": "Save and continue",
+  "classes": "button button-primary"
 }) }}
 ```
 
@@ -39,10 +39,10 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 
 ```
 {{ govukButton({
-	"element": "input",
-	"type": "submit",
-	"text": "Save and continue",
-	"classes": "button button-primary"
+  "element": "input",
+  "type": "submit",
+  "text": "Save and continue",
+  "classes": "button button-primary"
 }) }}
 ```
 
@@ -60,10 +60,10 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 
 ```
 {{ govukButton({
-	"element": "a",
-	"text": "Start now",
-	"classes": "button button-start",
-	"href": "/"
+  "element": "a",
+  "text": "Start now",
+  "classes": "button button-start",
+  "href": "/"
 }) }}
 ```
 

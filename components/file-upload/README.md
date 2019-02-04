@@ -17,21 +17,21 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukFileUpload({
-	"id": "file-upload",
-	"name": "file-upload",
-	"label": {
-		"text": "Upload a file"
-	}
+  "id": "file-upload",
+  "name": "file-upload",
+  "label": {
+    "text": "Upload a file"
+  }
 }) }}
 ```
 
 #### Markup
 ```
 <div class="form-group">
-	<label for="file-upload" class="form-label">
-		Upload a file
-	</label>
-	<input id="file-upload" class="form-control" name="file-upload" type="file">
+  <label for="file-upload" class="form-label">
+    Upload a file
+  </label>
+  <input id="file-upload" class="form-control" name="file-upload" type="file">
 </div>
 ```
 
@@ -42,28 +42,28 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukFileUpload({
-	"id": "file-upload",
-	"name": "file-upload",
-	"label": {
-		"text": "Upload a file",
-		"classes": "form-label-bold"
-	},
-	"hint": {
-		"text": "Hint text goes here"
-	}
+  "id": "file-upload",
+  "name": "file-upload",
+  "label": {
+    "text": "Upload a file",
+    "classes": "form-label-bold"
+  },
+  "hint": {
+    "text": "Hint text goes here"
+  }
 }) }}
 ```
 
 #### Markup
 ```
 <div class="form-group">
-	<label for="file-upload" class="form-label-bold">
-		Upload a file
-		<span for="file-upload-hint" class="form-hint">
-			Hint text goes here
-		</span>
-	</label>
-	<input id="file-upload" class="form-control" name="file-upload" type="file">
+  <label for="file-upload" class="form-label-bold">
+    Upload a file
+    <span for="file-upload-hint" class="form-hint">
+      Hint text goes here
+    </span>
+  </label>
+  <input id="file-upload" class="form-control" name="file-upload" type="file">
 </div>
 ```
 
@@ -74,34 +74,34 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukFileUpload({
-	"id": "file-upload",
-	"name": "file-upload",
-	"label": {
-		"text": "Upload a file",
-		"classes": "form-label-bold"
-	},
-	"hint": {
-		"text": "Hint text goes here"
-	},
-	"errorMessage": {
-		"text": "Error message goes here"
-	}
+  "id": "file-upload",
+  "name": "file-upload",
+  "label": {
+    "text": "Upload a file",
+    "classes": "form-label-bold"
+  },
+  "hint": {
+    "text": "Hint text goes here"
+  },
+  "errorMessage": {
+    "text": "Error message goes here"
+  }
 }) }}
 ```
 
 #### Markup
 ```
 <div class="form-group form-group-error">
-	<label for="file-upload" class="form-label-bold">
-		Upload a file
-		<span for="file-upload-hint" class="form-hint">
-			Hint text goes here
-		</span>
-	</label>
-	<span id="file-upload-error" class="error-message">
-	  Error message goes here
-	</span>
-	<input id="file-upload" class="form-control form-control-error" name="file-upload" type="file">
+  <label for="file-upload" class="form-label-bold">
+    Upload a file
+    <span for="file-upload-hint" class="form-hint">
+      Hint text goes here
+    </span>
+  </label>
+  <span id="file-upload-error" class="error-message">
+    Error message goes here
+  </span>
+  <input id="file-upload" class="form-control form-control-error" name="file-upload" type="file">
 </div>
 ```
 

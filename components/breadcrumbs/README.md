@@ -18,19 +18,19 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 
 ```
 {{ govukBreadcrumbs({
-	"items": [
-		{
-			"text": "Section",
-			"href": "/section"
-		},
-		{
-			"text": "Sub-section",
-			"href": "/section/sub-section"
-		},
-		{
-			"text": "Sub-sub-section"
-		}
-	]
+  "items": [
+    {
+      "text": "Section",
+      "href": "/section"
+    },
+    {
+      "text": "Sub-section",
+      "href": "/section/sub-section"
+    },
+    {
+      "text": "Sub-sub-section"
+    }
+  ]
 }) }}
 ```
 
@@ -38,15 +38,15 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 
 ```
 <div class="breadcrumbs">
-	<ol>
-		<li>
-			<a href="/section">Section</a>
-		</li>
-		<li>
-			<a href="/section/sub-section">Sub-section</a>
-		</li>
-		<li aria-current="page">Sub-sub-section</li>
-	</ol>
+  <ol>
+    <li>
+      <a href="/section">Section</a>
+    </li>
+    <li>
+      <a href="/section/sub-section">Sub-section</a>
+    </li>
+    <li aria-current="page">Sub-sub-section</li>
+  </ol>
 </div>
 ```
 
