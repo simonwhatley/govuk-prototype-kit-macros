@@ -17,7 +17,7 @@ Define the macro:
 
 ```
 {% macro input(params) %}
-<input type="{{ params.type | default('text') }}" name="{{ params.name }}" value="{{ params.value | escape }}" />
+<input type="{{ params.type | default('text') }}" name="{{ params.name }}" value="{{ params.value | escape }}">
 {% endmacro %}
 ```
 
