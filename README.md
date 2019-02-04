@@ -131,27 +131,27 @@ You're now free to use the macros, for example:
 
 ```
 {{ govukDateInput({
-	"id": "date-of-birth",
-	"name": "date_of_birth",
-	"fieldset": {
-		"legend": {
-			"text": "Date of birth"
-		}
-	},
-	"hint": {
-		"text": "For example, 31 3 1980"
-	},
-	"items": [
-		{
-			"name": "day"
-		},
-		{
-			"name": "month"
-		},
-		{
-			"name": "year"
-		}
-	]
+  "id": "date-of-birth",
+  "name": "date_of_birth",
+  "fieldset": {
+    "legend": {
+      "text": "Date of birth"
+    }
+  },
+  "hint": {
+    "text": "For example, 31 3 1980"
+  },
+  "items": [
+    {
+      "name": "day"
+    },
+    {
+      "name": "month"
+    },
+    {
+      "name": "year"
+    }
+  ]
 }) }}
 ```
 
