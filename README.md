@@ -1,5 +1,5 @@
 # About the GOV.UK prototype kit macros
-This is a set of [Nunjucks](https://mozilla.github.io/nunjucks/) macros to help in the building UK Government digital service prototypes using version 6.3.0 of the prototype kit.
+This is a set of [Nunjucks](https://mozilla.github.io/nunjucks/) macros to help in the building UK Government digital service prototypes using [version 6.3.0 of the prototype kit](https://github.com/alphagov/govuk-prototype-kit/releases/tag/v6.3.0).
 
 _NB. The macro definitions have been updated and are intentionally the same as the [GOV.UK Design System](https://design-system.service.gov.uk/) macros for interoperability._
 
