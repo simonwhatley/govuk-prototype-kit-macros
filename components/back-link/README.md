@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The back link component to helps users go back to the previous page in a multi-page transaction.
+Use the back link component to help users go back to the previous page in a multi-page transaction.
 
 ## Guidance
 

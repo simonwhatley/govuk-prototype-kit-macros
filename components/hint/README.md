@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The hint component is used for supporting contextual help within a label.
+Use the hint component for supporting contextual help within a `label`.
 
 ## Guidance
 

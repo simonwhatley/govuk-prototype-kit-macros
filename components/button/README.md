@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The button component is used to help users carry out an action on a GOV.UK page like starting an application or saving their information.
+Use the button component to help users carry out an action on a GOV.UK page like starting an application or saving their information.
 
 ## Guidance
 

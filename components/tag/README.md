@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Use the tag component to display a phase tag, e.g. "Alpha".
+Use the tag component to display a phase tag, for example "Alpha".
 
 ## Guidance
 

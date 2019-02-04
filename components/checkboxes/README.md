@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The checkbox component is used to allow users to select one or more options.
+Use the checkbox component to allow users to select one or more options.
 
 ## Guidance
 

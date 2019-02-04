@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Use the panel component to display important information when a transaction has been completed.
+Use the panel component to display important information such as when a transaction has been completed.
 
 In most cases, the panel component is used on confirmation pages, to tell the user they have successfully completed the transaction.
 

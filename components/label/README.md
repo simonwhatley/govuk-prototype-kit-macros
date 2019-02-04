@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The label component is used to give the form field a visual label.
+Use the label component to give the form field a visual label.
 
 ## Guidance
 

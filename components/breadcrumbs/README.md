@@ -2,7 +2,7 @@
 
 ## Introduction
 
-The breadcrumbs component helps users to understand where they are within a website’s structure and move between levels.
+Use the breadcrumbs component to help users to understand where they are within a website’s structure and move between levels.
 
 ## Guidance
 

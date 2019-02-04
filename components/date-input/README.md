@@ -2,7 +2,7 @@
 
 ## Introduction
 
-Use the date input component to help users enter a dates, for example: Date of birth.
+Use date input component to help users enter a dates, for example: Date of birth.
 
 ## Guidance
 
