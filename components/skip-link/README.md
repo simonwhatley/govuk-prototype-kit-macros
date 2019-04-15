@@ -17,8 +17,8 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukSkipLink({
-  "text": "Skip to main content",
-  "href": "#content"
+  text: "Skip to main content",
+  href: "#content"
 }) }}
 ```
 

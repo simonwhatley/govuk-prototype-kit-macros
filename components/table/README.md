@@ -17,44 +17,44 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukTable({
-  "rows": [
+  rows: [
     [
       {
-        "text": "January"
+        text: "January"
       },
       {
-        "text": "£85",
-        "format": "numeric"
+        text: "£85",
+        format: "numeric"
       },
       {
-        "text": "£95",
-        "format": "numeric"
+        text: "£95",
+        format: "numeric"
       }
     ],
     [
       {
-        "text": "February"
+        text: "February"
       },
       {
-        "text": "£75",
-        "format": "numeric"
+        text: "£75",
+        format: "numeric"
       },
       {
-        "text": "£55",
-        "format": "numeric"
+        text: "£55",
+        format: "numeric"
       }
-      ],
-      [
+    ],
+    [
       {
-        "text": "March"
+        text: "March"
       },
       {
-        "text": "£165",
-        "format": "numeric"
+        text: "£165",
+        format: "numeric"
       },
       {
-        "text": "£125",
-        "format": "numeric"
+        text: "£125",
+        format: "numeric"
       }
     ]
   ]
@@ -91,57 +91,57 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukTable({
-  "head": [
+  head: [
     {
-      "text": "Month you apply"
+      text: "Month you apply"
     },
     {
-      "text": "Rate for bicycles",
-      "format": "numeric"
+      text: "Rate for bicycles",
+      format: "numeric"
     },
     {
-      "text": "Rate for vehicles",
-      "format": "numeric"
+      text: "Rate for vehicles",
+      format: "numeric"
     }
   ],
-  "rows": [
+  rows: [
     [
       {
-        "text": "January"
+        text: "January"
       },
       {
-        "text": "£85",
-        "format": "numeric"
+        text: "£85",
+        format: "numeric"
       },
       {
-        "text": "£95",
-        "format": "numeric"
+        text: "£95",
+        format: "numeric"
       }
     ],
     [
       {
-        "text": "February"
+        text: "February"
       },
       {
-        "text": "£75",
-        "format": "numeric"
+        text: "£75",
+        format: "numeric"
       },
       {
-        "text": "£55",
-        "format": "numeric"
+        text: "£55",
+        format: "numeric"
       }
-      ],
-      [
+    ],
+    [
       {
-        "text": "March"
+        text: "March"
       },
       {
-        "text": "£165",
-        "format": "numeric"
+        text: "£165",
+        format: "numeric"
       },
       {
-        "text": "£125",
-        "format": "numeric"
+        text: "£125",
+        format: "numeric"
       }
     ]
   ]
@@ -185,60 +185,60 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukTable({
-  "caption": "Caption 1: Months and rates",
-  "captionClasses": "heading-large",
-  "firstCellIsHeader": true,
-  "head": [
+  caption: "Caption 1: Months and rates",
+  captionClasses: "heading-large",
+  firstCellIsHeader: true,
+  head: [
     {
-      "text": "Month you apply"
+      text: "Month you apply"
     },
     {
-      "text": "Rate for bicycles",
-      "format": "numeric"
+      text: "Rate for bicycles",
+      format: "numeric"
     },
     {
-      "text": "Rate for vehicles",
-      "format": "numeric"
+      text: "Rate for vehicles",
+      format: "numeric"
     }
   ],
-  "rows": [
+  rows: [
     [
       {
-        "text": "January"
+        text: "January"
       },
       {
-        "text": "£85",
-        "format": "numeric"
+        text: "£85",
+        format: "numeric"
       },
       {
-        "text": "£95",
-        "format": "numeric"
+        text: "£95",
+        format: "numeric"
       }
     ],
     [
       {
-        "text": "February"
+        text: "February"
       },
       {
-        "text": "£75",
-        "format": "numeric"
+        text: "£75",
+        format: "numeric"
       },
       {
-        "text": "£55",
-        "format": "numeric"
+        text: "£55",
+        format: "numeric"
       }
-      ],
-      [
+    ],
+    [
       {
-        "text": "March"
+        text: "March"
       },
       {
-        "text": "£165",
-        "format": "numeric"
+        text: "£165",
+        format: "numeric"
       },
       {
-        "text": "£125",
-        "format": "numeric"
+        text: "£125",
+        format: "numeric"
       }
     ]
   ]

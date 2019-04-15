@@ -17,7 +17,7 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukLabel({
-  "text": "National Insurance number"
+  text: "National Insurance number"
 }) }}
 ```
 
@@ -35,8 +35,8 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukLabel({
-  "text": "National Insurance number",
-  "classes": "form-label-bold"
+  text: "National Insurance number",
+  classes: "form-label-bold"
 }) }}
 ```
 
@@ -54,9 +54,9 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukLabel({
-  "text": "What is your National Insurance number?",
-  "classes": "heading-xlarge",
-  "isPageHeading": true
+  text: "What is your National Insurance number?",
+  classes: "heading-xlarge",
+  isPageHeading: true
 }) }}
 ```
 

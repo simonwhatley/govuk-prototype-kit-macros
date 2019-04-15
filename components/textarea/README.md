@@ -17,11 +17,11 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukTextarea({
-  "id": "additional-information",
-  "name": "additional-information",
-  "label": {
-    "text": "Please provide more information",
-    "classes": "form-label-bold"
+  id: "additional-information",
+  name: "additional-information",
+  label: {
+    text: "Please provide more information",
+    classes: "form-label-bold"
   }
 }) }}
 ```
@@ -43,14 +43,14 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukTextarea({
-  "id": "additional-information",
-  "name": "additional-information",
-  "label": {
-    "text": "Please provide more information",
-    "classes": "form-label-bold"
+  id: "additional-information",
+  name: "additional-information",
+  label: {
+    text: "Please provide more information",
+    classes: "form-label-bold"
   },
-  "hint": {
-    "text": "Don't include personal or financial information, for example your National Insurance number or credit card details."
+  hint: {
+    text: "Don't include personal or financial information, for example your National Insurance number or credit card details."
   }
 }) }}
 ```
@@ -75,17 +75,17 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukTextarea({
-  "id": "additional-information",
-  "name": "additional-information",
-  "label": {
-    "text": "Please provide more information",
-    "classes": "form-label-bold"
+  id: "additional-information",
+  name: "additional-information",
+  label: {
+    text: "Please provide more information",
+    classes: "form-label-bold"
   },
-  "hint": {
-    "text": "Don't include personal or financial information, for example your National Insurance number or credit card details."
+  hint: {
+    text: "Don't include personal or financial information, for example your National Insurance number or credit card details."
   },
-  "errorMessage": {
-    "text": "Error message goes here"
+  errorMessage: {
+    text: "Error message goes here"
   }
 }) }}
 ```
@@ -113,16 +113,16 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukTextarea({
-  "id": "additional-information-1",
-  "name": "additional-information-1",
-  "label": {
-    "text": "Please provide more information",
-    "classes": "form-label-bold"
+  id: "additional-information-1",
+  name: "additional-information-1",
+  label: {
+    text: "Please provide more information",
+    classes: "form-label-bold"
   },
-  "hint": {
-    "text": "Don't include personal or financial information, for example your National Insurance number or credit card details."
+  hint: {
+    text: "Don't include personal or financial information, for example your National Insurance number or credit card details."
   },
-  "value": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur a amet iste repellat. Labore explicabo assumenda, architecto non expedita sit, fuga nulla suscipit. Tenetur neque dicta, ea ad aliquam eligendi?"
+  value: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur a amet iste repellat. Labore explicabo assumenda, architecto non expedita sit, fuga nulla suscipit. Tenetur neque dicta, ea ad aliquam eligendi?"
 }) }}
 ```
 
@@ -146,15 +146,15 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukTextarea({
-  "id": "additional-information",
-  "name": "additional-information",
-  "label": {
-    "text": "Please provide more information",
-    "classes": "heading-xlarge",
-    "isPageHeading": true
+  id: "additional-information",
+  name: "additional-information",
+  label: {
+    text: "Please provide more information",
+    classes: "heading-xlarge",
+    isPageHeading: true
   },
-  "hint": {
-    "text": "Don't include personal or financial information, for example your National Insurance number or credit card details."
+  hint: {
+    text: "Don't include personal or financial information, for example your National Insurance number or credit card details."
   }
 }) }}
 ```

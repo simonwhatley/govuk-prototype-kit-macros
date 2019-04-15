@@ -20,15 +20,15 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 {{ govukBreadcrumbs({
   "items": [
     {
-      "text": "Section",
-      "href": "/section"
+      text: "Section",
+      href: "/section"
     },
     {
-      "text": "Sub-section",
-      "href": "/section/sub-section"
+      text: "Sub-section",
+      href: "/section/sub-section"
     },
     {
-      "text": "Sub-sub-section"
+      text: "Sub-sub-section"
     }
   ]
 }) }}

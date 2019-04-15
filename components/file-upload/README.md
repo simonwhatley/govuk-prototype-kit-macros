@@ -17,10 +17,10 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukFileUpload({
-  "id": "file-upload",
-  "name": "file-upload",
-  "label": {
-    "text": "Upload a file"
+  id: "file-upload",
+  name: "file-upload",
+  label: {
+    text: "Upload a file"
   }
 }) }}
 ```
@@ -42,14 +42,14 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukFileUpload({
-  "id": "file-upload",
-  "name": "file-upload",
-  "label": {
-    "text": "Upload a file",
-    "classes": "form-label-bold"
+  id: "file-upload",
+  name: "file-upload",
+  label: {
+    text: "Upload a file",
+    classes: "form-label-bold"
   },
-  "hint": {
-    "text": "Hint text goes here"
+  hint: {
+    text: "Hint text goes here"
   }
 }) }}
 ```

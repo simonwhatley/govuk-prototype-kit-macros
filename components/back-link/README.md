@@ -18,8 +18,8 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 
 ```
 {{ govukBackLink({
-  "href": "#",
-  "text": "Back to home"
+  href: "#",
+  text: "Back to home"
 }) }}
 ```
 

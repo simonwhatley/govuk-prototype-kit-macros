@@ -19,8 +19,8 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukPanel({
-  "titleHtml": "Application complete",
-    "html": "Your reference number is <span class='bold'>SW12345PF</span>"
+  titleHtml: "Application complete",
+    html: "Your reference number is <span class='bold'>SW12345PF</span>"
 }) }}
 ```
 

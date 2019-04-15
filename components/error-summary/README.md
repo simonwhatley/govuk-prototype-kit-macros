@@ -19,16 +19,16 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukErrorSummary({
-  "titleText": "Message to alert the user to a problem goes here",
-  "descriptionText": "Optional description of the errors and how to correct them",
-  "errorList": [
+  titleText: "Message to alert the user to a problem goes here",
+  descriptionText: "Optional description of the errors and how to correct them",
+  errorList: [
     {
-      "text": "Descriptive link to the question with an error",
-      "href": "#question-1"
+      text: "Descriptive link to the question with an error",
+      href: "#question-1"
     },
     {
-      "text": "Descriptive link to the question with an error",
-      "href": "#question-2"
+      text: "Descriptive link to the question with an error",
+      href: "#question-2"
     }
   ]
 }) }}

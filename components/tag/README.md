@@ -17,7 +17,7 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukTag({
-  "text": "alpha"
+  text: "alpha"
 }) }}
 ```
 

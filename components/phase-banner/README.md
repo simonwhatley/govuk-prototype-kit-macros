@@ -17,10 +17,10 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukPhaseBanner({
-  "tag": {
-    "text": "alpha"
+  tag: {
+    text: "alpha"
   },
-  "html": "This is a new service - your <a href="#">feedback</a> will help us to improve it."
+  html: "This is a new service - your <a href="#">feedback</a> will help us to improve it."
 }) }}
 ```
 

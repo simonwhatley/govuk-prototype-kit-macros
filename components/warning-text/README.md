@@ -17,7 +17,7 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukWarningText({
-  "text": "You can be fined up to £5,000 if you don’t register."
+  text: "You can be fined up to £5,000 if you don’t register."
 }) }}
 ```
 

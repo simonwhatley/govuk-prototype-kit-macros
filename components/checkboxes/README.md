@@ -17,38 +17,38 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukCheckboxes({
-  "idPrefix": "nationality",
-  "name": "nationality",
-  "fieldset": {
-    "legend": {
-      "text": "What is your nationality?",
-      "classes": "form-label-bold"
+  idPrefix: "nationality",
+  name: "nationality",
+  fieldset: {
+    legend: {
+      text: "What is your nationality?",
+      classes: "form-label-bold"
     }
   },
-  "items": [
+  items: [
     {
-      "value": "british",
-      "text": "British"
+      value: "british",
+      text: "British"
     },
     {
-      "value": "french",
-      "text": "French"
+      value: "french",
+      text: "French"
     },
     {
-      "value": "german",
-      "text": "German"
+      value: "german",
+      text: "German"
     },
     {
-      "value": "italian",
-      "text": "Italian"
+      value: "italian",
+      text: "Italian"
     },
     {
-      "value": "spanish",
-      "text": "Spanish"
+      value: "spanish",
+      text: "Spanish"
     },
     {
-      "value": "other",
-      "text": "Citizen of another country"
+      value: "other",
+      text: "Citizen of another country"
     }
   ]
 }) }}
@@ -107,41 +107,41 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukCheckboxes({
-  "idPrefix": "nationality",
-  "name": "nationality",
-  "fieldset": {
-    "legend": {
-      "text": "What is your nationality?",
-      "classes": "form-label-bold"
+  idPrefix: "nationality",
+  name: "nationality",
+  fieldset: {
+    legend: {
+      text: "What is your nationality?",
+      classes: "form-label-bold"
     }
   },
-  "hint": {
-    "text": "If you have dual nationality, select all options that are relevant to you."
+  hint: {
+    text: "If you have dual nationality, select all options that are relevant to you."
   },
-  "items": [
+  items: [
     {
-      "value": "british",
-      "text": "British"
+      value: "british",
+      text: "British"
     },
     {
-      "value": "french",
-      "text": "French"
+      value: "french",
+      text: "French"
     },
     {
-      "value": "german",
-      "text": "German"
+      value: "german",
+      text: "German"
     },
     {
-      "value": "italian",
-      "text": "Italian"
+      value: "italian",
+      text: "Italian"
     },
     {
-      "value": "spanish",
-      "text": "Spanish"
+      value: "spanish",
+      text: "Spanish"
     },
     {
-      "value": "other",
-      "text": "Citizen of another country"
+      value: "other",
+      text: "Citizen of another country"
     }
   ]
 }) }}
@@ -203,44 +203,44 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukCheckboxes({
-  "idPrefix": "nationality",
-  "name": "nationality",
-  "fieldset": {
-    "legend": {
-      "text": "What is your nationality?",
-      "classes": "form-label-bold"
+  idPrefix: "nationality",
+  name: "nationality",
+  fieldset: {
+    legend: {
+      text: "What is your nationality?",
+      classes: "form-label-bold"
     }
   },
-  "hint": {
-    "text": "If you have dual nationality, select all options that are relevant to you."
+  hint: {
+    text: "If you have dual nationality, select all options that are relevant to you."
   },
-  "errorMessage": {
-    "text": "Choose at least one nationality."
+  errorMessage: {
+    text: "Choose at least one nationality."
   },
-  "items": [
+  items: [
     {
-      "value": "british",
-      "text": "British"
+      value: "british",
+      text: "British"
     },
     {
-      "value": "french",
-      "text": "French"
+      value: "french",
+      text: "French"
     },
     {
-      "value": "german",
-      "text": "German"
+      value: "german",
+      text: "German"
     },
     {
-      "value": "italian",
-      "text": "Italian"
+      value: "italian",
+      text: "Italian"
     },
     {
-      "value": "spanish",
-      "text": "Spanish"
+      value: "spanish",
+      text: "Spanish"
     },
     {
-      "value": "other",
-      "text": "Citizen of another country"
+      value: "other",
+      text: "Citizen of another country"
     }
   ]
 }) }}
@@ -305,42 +305,42 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukCheckboxes({
-  "idPrefix": "nationality",
-  "name": "nationality",
-  "fieldset": {
-    "legend": {
-      "text": "What is your nationality?",
-      "classes": "form-label-bold"
+  idPrefix: "nationality",
+  name: "nationality",
+  fieldset: {
+    legend: {
+      text: "What is your nationality?",
+      classes: "form-label-bold"
     }
   },
-  "hint": {
-    "text": "If you have dual nationality, select all options that are relevant to you."
+  hint: {
+    text: "If you have dual nationality, select all options that are relevant to you."
   },
-  "items": [
+  items: [
     {
-      "value": "british",
-      "text": "British"
+      value: "british",
+      text: "British"
     },
     {
-      "value": "french",
-      "text": "French"
+      value: "french",
+      text: "French"
     },
     {
-      "value": "german",
-      "text": "German"
+      value: "german",
+      text: "German"
     },
     {
-      "value": "italian",
-      "text": "Italian"
+      value: "italian",
+      text: "Italian"
     },
     {
-      "value": "spanish",
-      "text": "Spanish"
+      value: "spanish",
+      text: "Spanish"
     },
     {
-      "value": "other",
-      "text": "Citizen of another country",
-      "disabled": true
+      value: "other",
+      text: "Citizen of another country",
+      disabled: true
     }
   ]
 }) }}
@@ -402,37 +402,37 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukCheckboxes({
-  "idPrefix": "checkboxes-example-5",
-  "name": "contact",
-  "fieldset": {
-    "legend": {
-      "text": "How do you want to be contacted?",
-      "classes": "form-label-bold"
+  idPrefix: "checkboxes-example-5",
+  name: "contact",
+  fieldset: {
+    legend: {
+      text: "How do you want to be contacted?",
+      classes: "form-label-bold"
     }
   },
-  "hint": {
-    "text": "Select all options that are relevant to you."
+  hint: {
+    text: "Select all options that are relevant to you."
   },
-  "items": [
+  items: [
     {
-      "value": "email",
-      "text": "Email",
-      "conditional": {
-        "html": email_panel_html
+      value: "email",
+      text: "Email",
+      conditional: {
+        html: email_panel_html
       }
     },
     {
-      "value": "phone",
-      "text": "Phone",
-      "conditional": {
-        "html": phone_panel_html
+      value: "phone",
+      text: "Phone",
+      conditional: {
+        html: phone_panel_html
       }
     },
     {
-      "value": "text",
-      "text": "Text message",
-      "conditional": {
-        "html": message_panel_html
+      value: "text",
+      text: "Text message",
+      conditional: {
+        html: message_panel_html
       }
     }
   ]

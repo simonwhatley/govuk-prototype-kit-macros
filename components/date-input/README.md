@@ -17,47 +17,47 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukDateInput({
-	"id": "date-of-birth",
-	"fieldset": {
-		"legend": {
-			"text": "What is your date of birth?"
+	id: "date-of-birth",
+	fieldset: {
+		legend: {
+			text: "What is your date of birth?"
 		}
 	},
-	"hint": {
-		"text": "For example, 31 3 1980"
+	hint: {
+		text: "For example, 31 3 1980"
 	},
-	"items": [
+	items: [
 		{
-			"id": "dob-day",
-			"name": "dob-day",
-			"formGroup": {
-				"classes": "form-group-day"
+			id: "dob-day",
+			name: "dob-day",
+			formGroup: {
+				classes: "form-group-day"
 			},
-			"type": "number",
-			"label": {
-				"text": "Day"
+			type: "number",
+			label: {
+				text: "Day"
 			}
 		},
 		{
-			"id": "dob-month",
-			"name": "dob-month",
-			"formGroup": {
-				"classes": "form-group-month"
+			id: "dob-month",
+			name: "dob-month",
+			formGroup: {
+				classes: "form-group-month"
 			},
-			"type": "number",
-			"label": {
-				"text": "Month"
+			type: "number",
+			label: {
+				text: "Month"
 			}
 		},
 		{
-			"id": "dob-year",
-			"name": "dob-year",
-			"formGroup": {
-				"classes": "form-group-year"
+			id: "dob-year",
+			name: "dob-year",
+			formGroup: {
+				classes: "form-group-year"
 			},
-			"type": "number",
-			"label": {
-				"text": "Year"
+			type: "number",
+			label: {
+				text: "Year"
 			}
 		}
 	]
@@ -105,50 +105,50 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukDateInput({
-	"id": "date-of-birth",
-	"fieldset": {
-		"legend": {
-			"text": "What is your date of birth?"
+	id: "date-of-birth",
+	fieldset: {
+		legend: {
+			text: "What is your date of birth?"
 		}
 	},
-	"hint": {
-		"text": "For example, 31 3 1980"
+	hint: {
+		text: "For example, 31 3 1980"
 	},
-	"errorMessage": {
-		"text": "Error message goes here"
+	errorMessage: {
+		text: "Error message goes here"
 	},
-	"items": [
+	items: [
 		{
-			"id": "dob-day",
-			"name": "dob-day",
-			"formGroup": {
-				"classes": "form-group-day"
+			id: "dob-day",
+			name: "dob-day",
+			formGroup: {
+				classes: "form-group-day"
 			},
-			"type": "number",
-			"label": {
-				"text": "Day"
+			type: "number",
+			label: {
+				text: "Day"
 			}
 		},
 		{
-			"id": "dob-month",
-			"name": "dob-month",
-			"formGroup": {
-				"classes": "form-group-month"
+			id: "dob-month",
+			name: "dob-month",
+			formGroup: {
+				classes: "form-group-month"
 			},
-			"type": "number",
-			"label": {
-				"text": "Month"
+			type: "number",
+			label: {
+				text: "Month"
 			}
 		},
 		{
-			"id": "dob-year",
-			"name": "dob-year",
-			"formGroup": {
-				"classes": "form-group-year"
+			id: "dob-year",
+			name: "dob-year",
+			formGroup: {
+				classes: "form-group-year"
 			},
-			"type": "number",
-			"label": {
-				"text": "Year"
+			type: "number",
+			label: {
+				text: "Year"
 			}
 		}
 	]
@@ -199,62 +199,62 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukDateInput({
-	"id": "date-of-birth",
-	"fieldset": {
-		"legend": {
-			"text": "What is your date of birth?"
+	id: "date-of-birth",
+	fieldset: {
+		legend: {
+			text: "What is your date of birth?"
 		}
 	},
-	"hint": {
-		"text": "For example, 31 3 1980"
+	hint: {
+		text: "For example, 31 3 1980"
 	},
-	"items": [
+	items: [
 		{
-			"id": "dob-day",
-			"name": "dob-day",
-			"formGroup": {
-				"classes": "form-group-day"
+			id: "dob-day",
+			name: "dob-day",
+			formGroup: {
+				classes: "form-group-day"
 			},
-			"type": "number",
-			"label": {
-				"text": "Day"
+			type: "number",
+			label: {
+				text: "Day"
 			},
-			"attributes": {
-				"pattern": "[0-9]*",
-				"max": "31",
-				"min": "1"
+			attributes: {
+				pattern: "[0-9]*",
+				max: "31",
+				min: "1"
 			}
 		},
 		{
-			"id": "dob-month",
-			"name": "dob-month",
-			"formGroup": {
-				"classes": "form-group-month"
+			id: "dob-month",
+			name: "dob-month",
+			formGroup: {
+				classes: "form-group-month"
 			},
-			"type": "number",
-			"label": {
-				"text": "Month"
+			type: "number",
+			label: {
+				text: "Month"
 			},
-			"attributes": {
-				"pattern": "[0-9]*",
-				"max": "31",
-				"min": "1"
+			attributes: {
+				pattern: "[0-9]*",
+				max: "31",
+				min: "1"
 			}
 		},
 		{
-			"id": "dob-year",
-			"name": "dob-year",
-			"formGroup": {
-				"classes": "form-group-year"
+			id: "dob-year",
+			name: "dob-year",
+			formGroup: {
+				classes: "form-group-year"
 		},
-			"type": "number",
-			"label": {
-				"text": "Year"
+			type: "number",
+			label: {
+				text: "Year"
 			},
-			"attributes": {
-				"pattern": "[0-9]*",
-				"max": "2019",
-				"min": "1900"
+			attributes: {
+				pattern: "[0-9]*",
+				max: "2019",
+				min: "1900"
 			}
 		}
 	]
@@ -302,51 +302,51 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukDateInput({
-	"id": "date-of-birth",
-	"fieldset": {
-		"legend": {
-			"text": "What is your date of birth?"
+	id: "date-of-birth",
+	fieldset: {
+		legend: {
+			text: "What is your date of birth?"
 		}
 	},
-	"hint": {
-		"text": "For example, 31 3 1980"
+	hint: {
+		text: "For example, 31 3 1980"
 	},
-	"items": [
+	items: [
 		{
-			"id": "dob-day",
-			"name": "dob-day",
-			"formGroup": {
-				"classes": "form-group-day"
+			id: "dob-day",
+			name: "dob-day",
+			formGroup: {
+				classes: "form-group-day"
 			},
-			"type": "number",
-			"label": {
-				"text": "Day"
+			type: "number",
+			label: {
+				text: "Day"
 			},
-			"value": 1
+			value: 1
 		},
 		{
-			"id": "dob-month",
-			"name": "dob-month",
-			"formGroup": {
-				"classes": "form-group-month"
+			id: "dob-month",
+			name: "dob-month",
+			formGroup: {
+				classes: "form-group-month"
 			},
-			"type": "number",
-			"label": {
-				"text": "Month"
+			type: "number",
+			label: {
+				text: "Month"
 			},
-			"value": 1
+			value: 1
 		},
 		{
-			"id": "dob-year",
-			"name": "dob-year",
-			"formGroup": {
-				"classes": "form-group-year"
+			id: "dob-year",
+			name: "dob-year",
+			formGroup: {
+				classes: "form-group-year"
 			},
-			"type": "number",
-			"label": {
-				"text": "Year"
+			type: "number",
+			label: {
+				text: "Year"
 			},
-			"value": 1970
+			value: 1970
 		}
 	]
 }) }}
