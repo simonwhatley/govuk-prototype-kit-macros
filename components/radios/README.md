@@ -17,34 +17,34 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukRadios({
-  "idPrefix": "example-1",
-  "name": "example-1",
-  "fieldset": {
-    "legend": {
-      "text": "To what extent do you agree?",
-      "classes": "form-label-bold"
+  idPrefix: "example-1",
+  name: "example-1",
+  fieldset: {
+    legend: {
+      text: "To what extent do you agree?",
+      classes: "form-label-bold"
     }
   },
-  "items": [
+  items: [
     {
-      "value": "1",
-      "text": "Strongly disagree"
+      value: "1",
+      text: "Strongly disagree"
     },
     {
-      "value": "2",
-      "text": "Disagree"
+      value: "2",
+      text: "Disagree"
     },
     {
-      "value": "3",
-      "text": "Neither agree nor disagree"
+      value: "3",
+      text: "Neither agree nor disagree"
     },
     {
-      "value": "4",
-      "text": "Agree"
+      value: "4",
+      text: "Agree"
     },
     {
-      "value": "5",
-      "text": "Strongly agree"
+      value: "5",
+      text: "Strongly agree"
     }
   ]
 }) }}
@@ -98,37 +98,37 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukRadios({
-  "idPrefix": "example-2",
-  "name": "example-2",
-  "fieldset": {
-    "legend": {
-      "text": "To what extent do you agree?",
-      "classes": "form-label-bold"
+  idPrefix: "example-2",
+  name: "example-2",
+  fieldset: {
+    legend: {
+      text: "To what extent do you agree?",
+      classes: "form-label-bold"
     }
   },
-  "hint": {
-    "text": "Select the option that is most relevant to you."
+  hint: {
+    text: "Select the option that is most relevant to you."
   },
-  "items": [
+  items: [
     {
-      "value": "1",
-      "text": "Strongly disagree"
+      value: "1",
+      text: "Strongly disagree"
     },
     {
-      "value": "2",
-      "text": "Disagree"
+      value: "2",
+      text: "Disagree"
     },
     {
-      "value": "3",
-      "text": "Neither agree nor disagree"
+      value: "3",
+      text: "Neither agree nor disagree"
     },
     {
-      "value": "4",
-      "text": "Agree"
+      value: "4",
+      text: "Agree"
     },
     {
-      "value": "5",
-      "text": "Strongly agree"
+      value: "5",
+      text: "Strongly agree"
     }
   ]
 }) }}
@@ -185,40 +185,40 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukRadios({
-  "idPrefix": "example-3",
-  "name": "example-3",
-  "fieldset": {
-    "legend": {
-      "text": "To what extent do you agree?",
-      "classes": "form-label-bold"
+  idPrefix: "example-3",
+  name: "example-3",
+  fieldset: {
+    legend: {
+      text: "To what extent do you agree?",
+      classes: "form-label-bold"
     }
   },
-  "hint": {
-    "text": "Select the option that is most relevant to you"
+  hint: {
+    text: "Select the option that is most relevant to you"
   },
-  "errorMessage": {
-    "text": "Choose an answer"
+  errorMessage: {
+    text: "Choose an answer"
   },
-  "items": [
+  items: [
     {
-      "value": "1",
-      "text": "Strongly disagree"
+      value: "1",
+      text: "Strongly disagree"
     },
     {
-      "value": "2",
-      "text": "Disagree"
+      value: "2",
+      text: "Disagree"
     },
     {
-      "value": "3",
-      "text": "Neither agree nor disagree"
+      value: "3",
+      text: "Neither agree nor disagree"
     },
     {
-      "value": "4",
-      "text": "Agree"
+      value: "4",
+      text: "Agree"
     },
     {
-      "value": "5",
-      "text": "Strongly agree"
+      value: "5",
+      text: "Strongly agree"
     }
   ]
 }) }}
@@ -278,42 +278,42 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukRadios({
-  "idPrefix": "example-4",
-  "name": "example-4",
-  "fieldset": {
-    "legend": {
-      "text": "To what extent do you agree?",
-      "classes": "form-label-bold"
+  idPrefix: "example-4",
+  name: "example-4",
+  fieldset: {
+    legend: {
+      text: "To what extent do you agree?",
+      classes: "form-label-bold"
     }
   },
-  "hint": {
-    "text": "Select the option that is most relevant to you."
+  hint: {
+    text: "Select the option that is most relevant to you."
   },
-  "items": [
+  items: [
     {
-      "value": "1",
-      "text": "Strongly disagree",
-      "disabled": true
+      value: "1",
+      text: "Strongly disagree",
+      disabled: true
     },
     {
-      "value": "2",
-      "text": "Disagree",
-      "disabled": true
+      value: "2",
+      text: "Disagree",
+      disabled: true
     },
     {
-      "value": "3",
-      "text": "Neither agree nor disagree",
-      "disabled": true
+      value: "3",
+      text: "Neither agree nor disagree",
+      disabled": true
     },
     {
-      "value": "4",
-      "text": "Agree",
-      "disabled": true
+      value: "4",
+      text: "Agree",
+      disabled: true
     },
     {
-      "value": "5",
-      "text": "Strongly agree",
-      "disabled": true
+      value: "5",
+      text: "Strongly agree",
+      disabled: true
     }
   ]
 }) }}
@@ -370,41 +370,41 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukRadios({
-  "idPrefix": "example-5",
-  "name": "example-5",
-  "fieldset": {
-    "legend": {
-      "text": "To what extent do you agree?",
-      "classes": "form-label-bold"
+  idPrefix: "example-5",
+  name: "example-5",
+  fieldset: {
+    legend: {
+      text: "To what extent do you agree?",
+      classes: "form-label-bold"
     }
   },
-  "hint": {
-    "text": "Select the option that is most relevant to you."
+  hint: {
+    text: "Select the option that is most relevant to you."
   },
-  "errorMessage": {
-    "text": "Choose an answer."
+  errorMessage: {
+    text: "Choose an answer."
   },
-  "items": [
+  items: [
     {
-      "value": "1",
-      "text": "Strongly disagree"
+      value: "1",
+      text: "Strongly disagree"
     },
     {
-      "value": "2",
-      "text": "Disagree"
+      value: "2",
+      text: "Disagree"
     },
     {
-      "value": "3",
-      "text": "Neither agree nor disagree",
-      "checked": true
+      value: "3",
+      text: "Neither agree nor disagree",
+      checked: true
     },
     {
-      "value": "4",
-      "text": "Agree",
+      value: "4",
+      text: "Agree",
     },
     {
-      "value": "5",
-      "text": "Strongly agree"
+      value: "5",
+      text: "Strongly agree"
     }
   ]
 }) }}
@@ -461,37 +461,37 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukRadios({
-  "idPrefix": "example-6",
-  "name": "example-6",
-  "fieldset": {
-    "legend": {
-      "text": "How do you want to be contacted?",
-      "classes": "form-label-bold"
+  idPrefix: "example-6",
+  name: "example-6",
+  fieldset: {
+    legend: {
+      text: "How do you want to be contacted?",
+      classes: "form-label-bold"
     }
   },
-  "hint": {
-    "text": "Select the option most relevant to you."
+  hint: {
+    text: "Select the option most relevant to you."
   },
-  "items": [
+  items: [
     {
-      "value": "email",
-      "text": "Email",
-      "conditional": {
-        "html": email_panel_html
+      value: "email",
+      text: "Email",
+      conditional: {
+        html: email_panel_html
       }
     },
     {
-      "value": "phone",
-      "text": "Phone",
-      "conditional": {
-        "html": phone_panel_html
+      value: "phone",
+      text: "Phone",
+      conditional: {
+        html: phone_panel_html
       }
     },
     {
-      "value": "text",
-      "text": "Text message",
-      "conditional": {
-        "html": message_panel_html
+      value: "text",
+      text: "Text message",
+      conditional: {
+        html: message_panel_html
       }
     }
   ]

@@ -19,28 +19,28 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukSelect({
-  "id": "example-1",
-  "name": "example-1",
-  "label": {
-    "text": "Label text goes here",
-    "classes": "form-label-bold"
+  id: "example-1",
+  name: "example-1",
+  label: {
+    text: "Label text goes here",
+    classes: "form-label-bold"
   },
-  "items": [
+  items: [
     {
-      "value": "",
-      "text": "Select an option"
+      value: "",
+      text: "Select an option"
     },
     {
-      "value": 1,
-      "text": "Option 1"
+      value: 1,
+      text: "Option 1"
     },
     {
-      "value": 2,
-      "text": "Option 2"
+      value: 2,
+      text: "Option 2"
     },
     {
-      "value": 3,
-      "text": "Option 3"
+      value: 3,
+      text: "Option 3"
     }
   ]
 }) }}
@@ -68,31 +68,31 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukSelect({
-  "id": "example-2",
-  "name": "example-2",
-  "label": {
-    "text": "Label text goes here",
-    "classes": "form-label-bold"
+  id: "example-2",
+  name: "example-2",
+  label: {
+    text: "Label text goes here",
+    classes: "form-label-bold"
   },
-  "hint": {
-    "text": "Hint text goes here"
+  hint: {
+    text: "Hint text goes here"
   },
-  "items": [
+  items: [
     {
-      "value": "",
-      "text": "Select an option"
+      value: "",
+      text: "Select an option"
     },
     {
-      "value": 1,
-      "text": "Option 1"
+      value: 1,
+      text: "Option 1"
     },
     {
-      "value": 2,
-      "text": "Option 2"
+      value: 2,
+      text: "Option 2"
     },
     {
-      "value": 3,
-      "text": "Option 3"
+      value: 3,
+      text: "Option 3"
     }
   ]
 }) }}
@@ -123,34 +123,34 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukSelect({
-  "id": "example-3",
-  "name": "example-3",
-  "label": {
-    "text": "Label text goes here",
-    "classes": "form-label-bold"
+  id: "example-3",
+  name: "example-3",
+  label: {
+    text: "Label text goes here",
+    classes: "form-label-bold"
   },
-  "hint": {
-    "text": "Hint text goes here"
+  hint: {
+    text: "Hint text goes here"
   },
-  "errorMessage": {
-    "text": "Error message goes here"
+  errorMessage: {
+    text: "Error message goes here"
   },
-  "items": [
+  items: [
     {
-      "value": "",
-      "text": "Select an option"
+      value: "",
+      text: "Select an option"
     },
     {
-      "value": 1,
-      "text": "Option 1"
+      value: 1,
+      text: "Option 1"
     },
     {
-      "value": 2,
-      "text": "Option 2"
+      value: 2,
+      text: "Option 2"
     },
     {
-      "value": 3,
-      "text": "Option 3"
+      value: 3,
+      text: "Option 3"
     }
   ]
 }) }}
@@ -185,32 +185,32 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukSelect({
-  "id": "example-4",
-  "name": "example-4",
-  "classes": "form-control-3-4",
-  "label": {
-    "text": "Label text goes here",
-    "classes": "form-label-bold"
+  id: "example-4",
+  name: "example-4",
+  classes: "form-control-3-4",
+  label: {
+    text: "Label text goes here",
+    classes: "form-label-bold"
   },
-  "hint": {
-    "text": "Hint text goes here"
+  hint: {
+    text: "Hint text goes here"
   },
-  "items": [
+  items: [
     {
-      "value": "",
-      "text": "Select an option"
+      value: "",
+      text: "Select an option"
     },
     {
-      "value": 1,
-      "text": "Option 1"
+      value: 1,
+      text: "Option 1"
     },
     {
-      "value": 2,
-      "text": "Option 2"
+      value: 2,
+      text: "Option 2"
     },
     {
-      "value": 3,
-      "text": "Option 3"
+      value: 3,
+      text: "Option 3"
     }
   ]
 }) }}
@@ -241,32 +241,32 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukSelect({
-  "id": "example-5",
-  "name": "example-5",
-  "label": {
-    "text": "Label text goes here",
-    "classes": "heading-xlarge",
-    "isPageHeading": true
+  id: "example-5",
+  name: "example-5",
+  label: {
+    text: "Label text goes here",
+    classes: "heading-xlarge",
+    isPageHeading: true
   },
-  "hint": {
-    "text": "Hint text goes here"
+  hint: {
+    text: "Hint text goes here"
   },
-  "items": [
+  items: [
     {
-      "value": "",
-      "text": "Select an option"
+      value: "",
+      text: "Select an option"
     },
     {
-      "value": 1,
-      "text": "Option 1"
+      value: 1,
+      text: "Option 1"
     },
     {
-      "value": 2,
-      "text": "Option 2"
+      value: 2,
+      text: "Option 2"
     },
     {
-      "value": 3,
-      "text": "Option 3"
+      value: 3,
+      text: "Option 3"
     }
   ]
 }) }}
@@ -299,32 +299,32 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukSelect({
-  "id": "example-6",
-  "name": "example-6",
-  "label": {
-    "text": "Label text goes here",
-    "classes": "form-label-bold"
+  id: "example-6",
+  name: "example-6",
+  label: {
+    text: "Label text goes here",
+    classes: "form-label-bold"
   },
-  "hint": {
-    "text": "Hint text goes here"
+  hint: {
+    text: "Hint text goes here"
   },
-  "items": [
+  items: [
     {
-      "value": "",
-      "text": "Select an option"
+      value: "",
+      text: "Select an option"
     },
     {
-      "value": 1,
-      "text": "Option 1",
-      "selected": true
+      value: 1,
+      text: "Option 1",
+      selected: true
     },
     {
-      "value": 2,
-      "text": "Option 2"
+      value: 2,
+      text: "Option 2"
     },
     {
-      "value": 3,
-      "text": "Option 3"
+      value: 3,
+      text: "Option 3"
     }
   ]
 }) }}
@@ -355,32 +355,32 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukSelect({
-  "id": "example-7",
-  "name": "example-7",
-  "label": {
-    "text": "Label text goes here",
-    "classes": "form-label-bold"
+  id: "example-7",
+  name: "example-7",
+  label: {
+    text: "Label text goes here",
+    classes: "form-label-bold"
   },
-  "hint": {
-    "text": "Hint text goes here"
+  hint: {
+    text: "Hint text goes here"
   },
-  "items": [
+  items: [
     {
-      "value": "",
-      "text": "Select an option"
+      value: "",
+      text: "Select an option"
     },
     {
-      "value": 1,
-      "text": "Option 1"
+      value: 1,
+      text: "Option 1"
     },
     {
-      "value": 2,
-      "text": "Option 2",
-      "disabled": true
+      value: 2,
+      text: "Option 2",
+      disabled: true
     },
     {
-      "value": 3,
-      "text": "Option 3"
+      value: 3,
+      text: "Option 3"
     }
   ]
 }) }}
@@ -411,42 +411,42 @@ Preview this example in the [prototype demo app](https://govuk-prototype-kit-mac
 #### Macro
 ```
 {{ govukSelect({
-  "id": "example-8",
-  "name": "example-8",
-  "label": {
-    "text": "Label text goes here",
-    "classes": "form-label-bold"
+  id: "example-8",
+  name: "example-8",
+  label: {
+    text: "Label text goes here",
+    classes: "form-label-bold"
   },
-  "hint": {
-    "text": "Hint text goes here"
+  hint: {
+    text: "Hint text goes here"
   },
-  "items": [
+  items: [
     {
-      "value": "",
-      "text": "Select an option"
+      value: "",
+      text: "Select an option"
     },
     {
-      "value": 1,
-      "text": "Option 1",
-      "attributes": {
-        "data-destination": true,
-        "data-cost": true
+      value: 1,
+      text: "Option 1",
+      attributes: {
+        data-destination: true,
+        data-cost: true
       }
     },
     {
-      "value": 2,
-      "text": "Option 2",
-      "attributes": {
-        "data-destination": false,
-        "data-cost": false
+      value: 2,
+      text: "Option 2",
+      attributes: {
+        data-destination: false,
+        data-cost: false
       }
     },
     {
-      "value": 3,
-      "text": "Option 3",
-      "attributes": {
-        "data-destination": true,
-        "data-cost": true
+      value: 3,
+      text: "Option 3",
+      attributes: {
+        data-destination: true,
+        data-cost: true
       }
     }
   ]
